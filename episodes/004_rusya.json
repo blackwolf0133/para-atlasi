@@ -1,0 +1,279 @@
+{
+  "id": "004",
+  "series": "PARA ATLASI",
+  "title": "Ruslar Paradan Çok Neyi Sever?",
+  "country": {
+    "name": "Rusya",
+    "code": "RU"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Ruslara göre yüz rublen olmasın ama… 🇷🇺🤝\n\nНе имей сто рублей, а имей сто друзей (Ne imey sto rubley, a imey sto druzey): \"Yüz rublen olmasın, yüz dostun olsun.\" Rusya'nın en bilinen sözlerinden biri; dostluğu paradan üstün tutar.\n\nSence dostluk paradan değerli mi? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #rusya #atasözü #dostluk #paraatlası",
+  "scenes": [
+    {
+      "say": "Ruslara göre yüz rublen olmasın! Peki ne olsun? Cevabı paradan çok daha değerli.",
+      "text": "Ruslara göre yüz rublen olmasın! Peki ne olsun? Cevabı paradan çok daha değerli.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "RUSYA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "YÜZ RUBLE?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Ne imey sto rubley, a imey sto druzey. Yani: Yüz rublen olmasın, yüz dostun olsun.",
+      "text": "Ne imey sto rubley, a imey sto druzey. Yani: Yüz rublen olmasın, yüz dostun olsun.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Не имей сто рублей, а имей сто друзей",
+          "roman": "Ne imey sto rubley, a imey sto druzey",
+          "tr": "Yüz rublen olmasın, yüz dostun olsun.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Bu söz Rusya'da küçüklükten beri duyulan en bilinen atasözlerinden biridir. Dostluğu paradan üstün tutar.",
+      "text": "Bu söz Rusya'da küçüklükten beri duyulan en bilinen atasözlerinden biridir. Dostluğu paradan üstün tutar.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "a",
+          "x": 0.2,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15
+        },
+        {
+          "id": "b",
+          "x": 0.4,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15
+        },
+        {
+          "id": "c",
+          "x": 0.6,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        },
+        {
+          "id": "d",
+          "x": 0.8,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "banknote",
+          "x": 0.5,
+          "y": 0.28,
+          "scale": 0.8,
+          "symbol": "₽",
+          "flutter": true
+        }
+      ]
+    },
+    {
+      "say": "Çünkü paranın bitebileceğini, ama dostun zor gününde yanında durduğunu söylerler. Parasız kalırsan seni bir dost kurtarır.",
+      "text": "Çünkü paranın bitebileceğini, ama dostun zor gününde yanında durduğunu söylerler. Parasız kalırsan seni bir dost kurtarır.",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "uzgun",
+          "x": 0.3,
+          "pose": "sad",
+          "face": "sad",
+          "scale": 1.15
+        },
+        {
+          "id": "dost",
+          "x": 0.7,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "wallet",
+          "x": 0.3,
+          "y": 0.62,
+          "scale": 0.65,
+          "empty": true
+        },
+        {
+          "type": "bubble",
+          "text": "Ben yanındayım!",
+          "x": 0.62,
+          "y": 0.12,
+          "tx": 0.7,
+          "ty": 0.32,
+          "f": 0.55
+        }
+      ]
+    },
+    {
+      "say": "Ama bir şaka bu söze karşılık hep yapılır: Yüz dostun olsun ama yüzü de aynı akşam yemeğe gelmesin, yoksa yine paraya ihtiyacın olur!",
+      "text": "Ama bir şaka bu söze karşılık hep yapılır: Yüz dostun olsun ama yüzü de aynı akşam yemeğe gelmesin, yoksa yine paraya ihtiyacın olur!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55,
+          "anim2": "shake"
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "100 KİŞİ!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 105,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Parayı kazan, ama dostu kaybetme!",
+      "text": "Günün dersi: Parayı kazan, ama dostu kaybetme!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.72,
+          "y": 0.93,
+          "n": 5
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Türkiye'ye gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Türkiye'ye gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Rusya",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: TÜRKİYE!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

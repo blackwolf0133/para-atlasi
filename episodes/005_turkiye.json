@@ -1,0 +1,248 @@
+{
+  "id": "005",
+  "series": "PARA ATLASI",
+  "title": "Atalarımız Paraya Ne Demiş?",
+  "country": {
+    "name": "Türkiye",
+    "code": "TR"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Dedelerimizden kalma en iyi finans tavsiyesi 🇹🇷💰\n\n\"Ak akçe kara gün içindir.\" Çalışıp kazandığın parayı, zor günlerin için ayır demek. Atasözü bize Osmanlı'dan kalma: akçe eskiden kullanılan küçük gümüş paranın adı.\n\nSen kara gün için biriktiriyor musun? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #türkiye #atasözü #birikim #paraatlası",
+  "scenes": [
+    {
+      "say": "Dedelerimizin en iyi finans tavsiyesi hangisi biliyor musun? Hepimiz duyduk ama kaç kişi uyguluyor?",
+      "text": "Dedelerimizin en iyi finans tavsiyesi hangisi biliyor musun? Hepimiz duyduk ama kaç kişi uyguluyor?",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "TÜRKİYE!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "KARA GÜN?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Ak akçe kara gün içindir. Yani: Biriktirdiğin para, zor günler için.",
+      "text": "Ak akçe kara gün içindir. Yani: Biriktirdiğin para, zor günler için.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Ak akçe kara gün içindir",
+          "roman": "",
+          "tr": "Biriktirdiğin para, zor günler için.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Akçe, eskiden kullanılan küçük gümüş paranın adıydı. Ak da beyaz demek: Yani temiz, çalışarak kazanılmış para.",
+      "text": "Akçe, eskiden kullanılan küçük gümüş paranın adıydı. Ak da beyaz demek: Yani temiz, çalışarak kazanılmış para.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "sarik"
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "A",
+          "scale": 1.3
+        }
+      ]
+    },
+    {
+      "say": "Atasözü şunu söyler: Sağlığın ve gücün yerindeyken çalışıp kazandığın parayı sakla. Bir gün lazım olacak, o gün seni darlıktan çıkarır.",
+      "text": "Atasözü şunu söyler: Sağlığın ve gücün yerindeyken çalışıp kazandığın parayı sakla. Bir gün lazım olacak, o gün seni darlıktan çıkarır.",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "sarik"
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "coin",
+          "x": 0.72,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 1.5,
+          "scale": 0.8
+        }
+      ]
+    },
+    {
+      "say": "Tabii kara günün ne zaman geleceğini kimse bilmez. O yüzden bu atasözü, bir de şunu fısıldar: Akşam yemeğinde son dört baklava yerine ikisi yeter!",
+      "text": "Tabii kara günün ne zaman geleceğini kimse bilmez. O yüzden bu atasözü, bir de şunu fısıldar: Akşam yemeğinde son dört baklava yerine ikisi yeter!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "hat": "sarik",
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "2 YETER!",
+          "x": 0.7,
+          "y": 0.28,
+          "size": 105,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Parayı kazanmak hüner, saklamak ise erdemdir!",
+      "text": "Günün dersi: Parayı kazanmak hüner, saklamak ise erdemdir!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Mısır'a gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Mısır'a gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Türkiye",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: MISIR!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

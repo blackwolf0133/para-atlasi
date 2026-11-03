@@ -1,0 +1,312 @@
+{
+  "id": "001",
+  "series": "PARA ATLASI",
+  "title": "Japonlar Paraya Ne Der?",
+  "country": {
+    "name": "Japonya",
+    "code": "JP"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Japonlar cebi boş arkadaşına tek bir cümle söyler… 🇯🇵💴\n\n「金は天下の回り物」 Kane wa tenka no mawarimono: \"Para, dünyayı dolaşan bir yolcudur.\" Japonya'nın en bilinen para sözlerinden biri. Çoğunlukla parası bitmiş birini teselli etmek için söylenir: para döner dolaşır, bir gün senin kapını da çalar. Ama cebi dolu olanlara da bir uyarıdır!\n\nSence para gerçekten geri döner mi? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #japonya #atasözü #kişiselfinans #paraatlası",
+  "scenes": [
+    {
+      "say": "Japonlar paraya ne der, biliyor musun? Cebi boş arkadaşlarına söyledikleri sihirli bir cümle var.",
+      "text": "Japonlar paraya ne der, biliyor musun? Cebi boş arkadaşlarına söyledikleri sihirli bir cümle var.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "pop",
+          "text": "JAPONYA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "SİHİRLİ CÜMLE?",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Kane va tenka no mavarimono. Yani: Para, dünyayı dolaşan bir yolcudur.",
+      "text": "Kane wa tenka no mawarimono. Yani: Para, dünyayı dolaşan bir yolcudur.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "金は天下の回り物",
+          "roman": "Kane wa tenka no mawarimono",
+          "tr": "Para, dünyayı dolaşan bir yolcudur.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Para hiçbir cepte uzun süre durmaz. Elden ele, cepten cebe dolaşır.",
+      "text": "Para hiçbir cepte uzun süre durmaz. Elden ele, cepten cebe dolaşır.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "a1",
+          "x": 0.18,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.05
+        },
+        {
+          "id": "a2",
+          "x": 0.5,
+          "pose": "open",
+          "face": "surprised",
+          "scale": 1.05
+        },
+        {
+          "id": "a3",
+          "x": 0.82,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.05,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.18,
+          "y": 0.42,
+          "to_x": 0.82,
+          "arc": 0.12,
+          "move_dur": 3.2,
+          "delay": 0.3,
+          "scale": 1.1
+        }
+      ]
+    },
+    {
+      "say": "Japonlar bu sözü genelde cebi boşalan birini teselli etmek için söyler: Üzülme, para döner dolaşır, bir gün senin kapını da çalar!",
+      "text": "Japonlar bu sözü genelde cebi boşalan birini teselli etmek için söyler: \"Üzülme, para döner dolaşır, bir gün senin kapını da çalar!\"",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "uzgun",
+          "x": 0.3,
+          "pose": "sad",
+          "face": "sad",
+          "scale": 1.15
+        },
+        {
+          "id": "dost",
+          "x": 0.72,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true,
+          "talk": true
+        }
+      ],
+      "props": [
+        {
+          "type": "wallet",
+          "x": 0.14,
+          "y": 0.9,
+          "scale": 0.6,
+          "empty": true
+        },
+        {
+          "type": "bubble",
+          "text": "Üzülme, para döner dolaşır!",
+          "x": 0.6,
+          "y": 0.12,
+          "tx": 0.7,
+          "ty": 0.32,
+          "f": 0.45
+        }
+      ]
+    },
+    {
+      "say": "Ama sözün bir de öbür yüzü var. Cebi dolu olanlara da şunu fısıldar: O para sende de kalmayacak, haberin olsun!",
+      "text": "Ama sözün bir de öbür yüzü var. Cebi dolu olanlara da şunu fısıldar: \"O para sende de kalmayacak, haberin olsun!\"",
+      "emotion": "şaşkın",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "zengin",
+          "x": 0.3,
+          "hat": "tophat",
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55,
+          "anim2": "shake"
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.72,
+          "y": 0.93,
+          "scale": 0.9
+        },
+        {
+          "type": "banknote",
+          "x": 0.45,
+          "y": 0.55,
+          "to_x": 1.25,
+          "to_y": 0.15,
+          "move_dur": 2.2,
+          "f": 0.6,
+          "scale": 0.9,
+          "flutter": true
+        },
+        {
+          "type": "banknote",
+          "x": 0.4,
+          "y": 0.62,
+          "to_x": 1.3,
+          "to_y": 0.3,
+          "move_dur": 2.6,
+          "f": 0.66,
+          "scale": 0.8,
+          "flutter": true
+        },
+        {
+          "type": "pop",
+          "text": "HOP!",
+          "x": 0.75,
+          "y": 0.25,
+          "size": 110,
+          "f": 0.62,
+          "rot": 10
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Para yokken umudunu kaybetme, para varken aklını!",
+      "text": "Günün dersi: Para yokken umudunu kaybetme, para varken aklını!",
+      "emotion": "sakin",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "bilge",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "coin",
+          "x": 0.72,
+          "y": 0.35,
+          "to_y": 0.62,
+          "move_dur": 0.6,
+          "f": 0.7,
+          "spin": true,
+          "scale": 0.8
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Kore'ye gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Kore'ye gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Japonya",
+          "x": 0.79,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 1.1
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: GÜNEY KORE!",
+          "x": 0.3,
+          "y": 0.15,
+          "size": 90,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}
