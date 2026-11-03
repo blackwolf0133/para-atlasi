@@ -1,0 +1,246 @@
+{
+  "id": "002",
+  "series": "PARA ATLASI",
+  "title": "Koreliler Tozdan Dağ Yapar",
+  "country": {
+    "name": "Güney Kore",
+    "code": "KR"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Koreliler paraya bakınca dağ görür 🏔️🇰🇷\n\n티끌 모아 태산 (Tikkeul moa taesan): \"Toz toz birikir, dağ olur.\" Kore'de küçük küçük para biriktirmeyi anlatmak için kullanılan çok bilinen bir atasözü. Günde 100 lirayı kenara koyarsan bir yılda 36 bin 500 lira eder!\n\nSen günde ne kadar biriktirirsin? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #kore #atasözü #birikim #paraatlası",
+  "scenes": [
+    {
+      "say": "Koreliler paraya bakınca ne görür, biliyor musun? Dağ! Hem de tozdan yapılmış bir dağ.",
+      "text": "Koreliler paraya bakınca ne görür, biliyor musun? Dağ! Hem de tozdan yapılmış bir dağ.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "KORE!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "TOZDAN DAĞ?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Tikıl moa tesan. Yani: Toz toz birikir, dağ olur.",
+      "text": "Tikkeul moa taesan. Yani: Toz toz birikir, dağ olur.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "티끌 모아 태산",
+          "roman": "Tikkeul moa taesan",
+          "tr": "Toz toz birikir, dağ olur.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Bu söz, küçük küçük para biriktirmenin gücünü anlatır. Bugün kenara koyduğun azıcık para, yarın dev bir yığına dönüşür.",
+      "text": "Bu söz, küçük küçük para biriktirmenin gücünü anlatır. Bugün kenara koyduğun azıcık para, yarın dev bir yığına dönüşür.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.7,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 1.0,
+          "scale": 0.8
+        },
+        {
+          "type": "coin",
+          "x": 0.66,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 2.4,
+          "scale": 0.8
+        },
+        {
+          "type": "coin",
+          "x": 0.74,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 3.8,
+          "scale": 0.8
+        }
+      ]
+    },
+    {
+      "say": "Hesap çok basit. Günde sadece 100 lirayı kenara koyarsan, bir yılda 36500 lira biriktirirsin. Bir yıl önce 'bu kadarcık paradan ne olur' demiştin, değil mi?",
+      "text": "Hesap çok basit. Günde sadece 100 lirayı kenara koyarsan, bir yılda 36.500 lira biriktirirsin. Bir yıl önce \"bu kadarcık paradan ne olur\" demiştin, değil mi?",
+      "bg": "vault",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "think",
+          "face": "think",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.5
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.72,
+          "y": 0.93,
+          "n": 4
+        },
+        {
+          "type": "pop",
+          "text": "36.500 TL!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 110,
+          "f": 0.45,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Küçük parayı küçümseme, dağlar zaten tozdan başlar!",
+      "text": "Günün dersi: Küçük parayı küçümseme, dağlar zaten tozdan başlar!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Almanya'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Almanya'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Güney Kore",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: ALMANYA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

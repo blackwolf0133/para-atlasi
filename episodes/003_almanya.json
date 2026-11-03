@@ -1,0 +1,276 @@
+{
+  "id": "003",
+  "series": "PARA ATLASI",
+  "title": "Almanlar Parayı Gübreye Benzetir",
+  "country": {
+    "name": "Almanya",
+    "code": "DE"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Almanlar parayı hayvan gübresine benzetmiş 😅🇩🇪\n\nKleinvieh macht auch Mist: \"Küçük hayvan da gübre yapar.\" Yani küçük kazançlar da birikince önemli bir miktar eder. Söz 19. yüzyılın ortalarından beri biliniyor.\n\nSen küçük kazançları ciddiye alır mısın? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #almanya #atasözü #tasarruf #paraatlası",
+  "scenes": [
+    {
+      "say": "Almanlar parayı neye benzetir, biliyor musun? Hayvan gübresine! Hem de bunun için çok iyi bir sebepleri var.",
+      "text": "Almanlar parayı neye benzetir, biliyor musun? Hayvan gübresine! Hem de bunun için çok iyi bir sebepleri var.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "ALMANYA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "GÜBRE?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Klaynfi mahht auh mist. Yani: Küçük hayvan da gübre yapar.",
+      "text": "Kleinvieh macht auch Mist. Yani: Küçük hayvan da gübre yapar.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Kleinvieh macht auch Mist",
+          "roman": "Kleinvieh macht auch Mist",
+          "tr": "Küçük hayvan da gübre yapar.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Bu söz 19. yüzyılın ortalarından beri kullanılıyor. Almanca'da para ile gübre, eski deyimlerde sık sık yan yana gelir.",
+      "text": "Bu söz 19. yüzyılın ortalarından beri kullanılıyor. Almanca'da para ile gübre, eski deyimlerde sık sık yan yana gelir.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "spin": true,
+          "scale": 1.2
+        }
+      ]
+    },
+    {
+      "say": "Anlamı şu: Küçük hayvan tek başına az gübre yapar ama sürü olunca ortalık dolar. Küçük kazançlar da böyle birikir.",
+      "text": "Anlamı şu: Küçük hayvan tek başına az gübre yapar ama sürü olunca ortalık dolar. Küçük kazançlar da böyle birikir.",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.6,
+          "y": 0.8,
+          "scale": 0.7,
+          "delay": 0.8,
+          "spin": false
+        },
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.8,
+          "scale": 0.7,
+          "delay": 1.8,
+          "spin": false
+        },
+        {
+          "type": "coin",
+          "x": 0.8,
+          "y": 0.8,
+          "scale": 0.7,
+          "delay": 2.8,
+          "spin": false
+        },
+        {
+          "type": "coin",
+          "x": 0.65,
+          "y": 0.65,
+          "scale": 0.7,
+          "delay": 3.8,
+          "spin": false
+        },
+        {
+          "type": "coin",
+          "x": 0.75,
+          "y": 0.65,
+          "scale": 0.7,
+          "delay": 4.8,
+          "spin": false
+        }
+      ]
+    },
+    {
+      "say": "Mesela markette kilo başına birkaç kuruş indirim var diye alışveriş yapan bir Alman, bunu bir yıl boyunca yaparsa şaşırır. Kuruş kuruş birikir.",
+      "text": "Mesela markette kilo başına birkaç kuruş indirim var diye alışveriş yapan bir Alman, bunu bir yıl boyunca yaparsa şaşırır. Kuruş kuruş birikir.",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "al",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.6
+        }
+      ],
+      "props": [
+        {
+          "type": "wallet",
+          "x": 0.72,
+          "y": 0.88,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "KURUŞ KURUŞ!",
+          "x": 0.62,
+          "y": 0.28,
+          "size": 92,
+          "f": 0.6,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Küçük kazancı küçümseyen, büyük kazancı bekler!",
+      "text": "Günün dersi: Küçük kazancı küçümseyen, büyük kazancı bekler!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Rusya'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Rusya'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Almanya",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: RUSYA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}
