@@ -7,3 +7,7 @@ Her gün saat **21:00**'de (Türkiye) farklı bir ülkenin para sözünü çöp 
 - Gizli kasa (Settings → Secrets → Actions): `IG_ACCESS_TOKEN`, `IG_USER_ID`, `VOICE_KEY`
 - Bağlantı testi: Actions → Bağlantı testi · Deneme videosu: Actions → Günlük paylaşım → "Sadece videoyu üret"
 - Ses: Pocket TTS Turkish (CC BY 4.0), sahibinin kendi ses kaydından klonlanır (`assets/voice/ref.wav.enc` şifreli)
+
+
+## Ses
+Chatterbox Multilingual (MIT, Resemble AI) + ses örneği `male_1`, Pocket TTS Turkish (CC-BY-4.0, wite-tech/pocket-tts-turkish; Kyutai Pocket TTS'ten türetilmiştir). Yedek: Piper tr_TR-fahrettin-medium.
