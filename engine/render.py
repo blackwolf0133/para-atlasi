@@ -68,9 +68,51 @@ def pocket_tts(text, out_wav, emotion=None):
     os.remove(raw)
 
 
+_CB = {"m": None, "ref": None, "n": 0}
+_CB_EX = {"şaşkın": 0.7, "mutlu": 0.65, "kızgın": 0.7, "sakin": 0.4, "üzgün": 0.45}
+
+
+def chatterbox_tts(text, out_wav, emotion=None):
+    """Chatterbox Multilingual (MIT) + Pocket TTS Turkish'in hazır ses örneği (CC-BY-4.0).
+    Kanal sahibinin seçimi: Para Atlası için "male_1" (14 numara)."""
+    import torch
+    if _CB["m"] is None:
+        _load = torch.load
+        torch.load = lambda *a, **k: _load(*a, **{**k, "map_location": "cpu"})
+        from chatterbox.mtl_tts import ChatterboxMultilingualTTS
+        from huggingface_hub import hf_hub_download
+        _CB["m"] = ChatterboxMultilingualTTS.from_pretrained(device="cpu")
+        name = os.environ.get("CB_REF", "male_1")
+        _CB["ref"] = hf_hub_download("wite-tech/pocket-tts-turkish", f"voices/{name}.wav")
+        print("Ses: Chatterbox, örnek ses", name)
+    m = _CB["m"]
+    _CB["n"] += 1
+    torch.manual_seed(7 + _CB["n"])
+    ex = _CB_EX.get(emotion or "", float(os.environ.get("CB_EXAGGERATION", "0.5")))
+    wav = m.generate(text, language_id="tr", audio_prompt_path=_CB["ref"], exaggeration=ex,
+                     cfg_weight=float(os.environ.get("CB_CFG", "0.5")))
+    a = wav.squeeze(0).numpy()
+    raw = out_wav + ".raw.wav"
+    import wave
+    with wave.open(raw, "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(m.sr)
+        w.writeframes((np.clip(a, -1, 1) * 32767).astype(np.int16).tobytes())
+    tempo = float(os.environ.get("CB_TEMPO", "1.0"))
+    af = (f"atempo={tempo}," if abs(tempo - 1.0) > 0.01 else "") + \
+        "highpass=f=70,acompressor=threshold=-18dB:ratio=2.5:attack=5:release=60,loudnorm=I=-16:TP=-1.5:LRA=6"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", raw, "-af", af, "-ar", str(SR), "-ac", "1", out_wav], check=True)
+    os.remove(raw)
+
+
 def tts(text, out_wav, voice_model, length_scale=1.0, fx=None, emotion=None):
-    """Seslendirme. TTS_ENGINE=pocket ise kullanıcının klonlanmış sesi (ya da hazır pocket sesi),
-    değilse Piper. Pocket hata verirse Piper'a düşer, paylaşım aksamaz."""
+    """Seslendirme. TTS_ENGINE=chatterbox (varsayılan iş akışında) ise Chatterbox + seçilen hazır ses;
+    TTS_ENGINE=pocket ise kullanıcının klonlanmış sesi; değilse Piper. Hata olursa Piper'a düşer, paylaşım aksamaz."""
+    if os.environ.get("TTS_ENGINE") == "chatterbox":
+        try:
+            return chatterbox_tts(text, out_wav, emotion)
+        except Exception as e:  # noqa: BLE001
+            print(f"::warning::Chatterbox çalışmadı, Piper'a geçiliyor: {e}")
+            os.environ["TTS_ENGINE"] = "piper"
     if os.environ.get("TTS_ENGINE") == "pocket":
         try:
             return pocket_tts(text, out_wav, emotion)
