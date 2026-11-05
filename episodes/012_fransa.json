@@ -1,0 +1,241 @@
+{
+  "id": "012",
+  "series": "PARA ATLASI",
+  "title": "Paranın Kokusu Olmaz Diyen İmparator",
+  "country": {
+    "name": "Fransa",
+    "code": "FR"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Paranın kokusu olmaz! 🇫🇷👃\n\n\"L'argent n'a pas d'odeur.\" Fransızcada çok bilinen bu söz, Roma imparatoru Vespasianus'a dayanan bir hikâyeden geliyor: Halk tuvaletlerinden vergi aldığı için oğlu itiraz edince bir parayı burnuna tutmuş.\n\nSence her kazanç aynı değerde mi? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #fransa #atasözü #roma #paraatlası",
+  "scenes": [
+    {
+      "say": "Fransızlar paranın kokusuyla ilgili bir söz kullanır. Hikâyesi ise iki bin yıl önceki bir Roma imparatoruna dayanır!",
+      "text": "Fransızlar paranın kokusuyla ilgili bir söz kullanır. Hikâyesi ise iki bin yıl önceki bir Roma imparatoruna dayanır!",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "FRANSA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "KOKU?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Larjan na pa dodör. Yani: Paranın kokusu olmaz.",
+      "text": "Larjan na pa dodör. Yani: Paranın kokusu olmaz.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "L'argent n'a pas d'odeur",
+          "roman": "",
+          "tr": "Paranın kokusu olmaz.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Hikâyeye göre Roma imparatoru Vespasianus, halk tuvaletlerinden vergi almaya başlamış. Oğlu Titus ise bundan hoşlanmamış.",
+      "text": "Hikâyeye göre Roma imparatoru Vespasianus, halk tuvaletlerinden vergi almaya başlamış. Oğlu Titus ise bundan hoşlanmamış.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "crown"
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "€",
+          "scale": 1.3
+        }
+      ]
+    },
+    {
+      "say": "İmparator bir parayı oğlunun burnuna tutup 'Kokuyor mu?' diye sormuş. Cevap hayır olunca da sözün çıkış hikâyesi tamamlanmış.",
+      "text": "İmparator bir parayı oğlunun burnuna tutup 'Kokuyor mu?' diye sormuş. Cevap hayır olunca da sözün çıkış hikâyesi tamamlanmış.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "crown"
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "€",
+          "scale": 1.3,
+          "spin": true
+        }
+      ]
+    },
+    {
+      "say": "Romalılar tuvaletten bile vergi almış. Bizim faturalar bunun yanında çiçek gibi kalır!",
+      "text": "Romalılar tuvaletten bile vergi almış. Bizim faturalar bunun yanında çiçek gibi kalır!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55,
+          "hat": "crown"
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "VERGİ!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 100,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Para kokmaz ama kazandığın yol kokmasın!",
+      "text": "Günün dersi: Para kokmaz ama kazandığın yol kokmasın!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.72,
+          "y": 0.93,
+          "n": 4
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın İspanya'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın İspanya'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Fransa",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: İSPANYA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}
