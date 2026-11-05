@@ -1,0 +1,239 @@
+{
+  "id": "008",
+  "series": "PARA ATLASI",
+  "title": "Zaman da Paradır, Diyen Adam",
+  "country": {
+    "name": "ABD",
+    "code": "US"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Zaman da para mı? 🇺🇸⏰\n\n\"Time is money\": Zaman paradır. Bu sözü Benjamin Franklin 1748'de \"Genç Bir Esnafa Öğüt\" yazısında yazdı. Franklin bugün 100 dolarlık banknotun üzerinde!\n\nSence zaman mı daha değerli, para mı? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #abd #franklin #zaman #paraatlası",
+  "scenes": [
+    {
+      "say": "Bir yazar çıkmış, 'zaman paradır' demiş. Üstelik 250 yıldan fazla önce. Bugün hâlâ hepimiz bu sözü kullanıyoruz.",
+      "text": "Bir yazar çıkmış, 'zaman paradır' demiş. Üstelik 250 yıldan fazla önce. Bugün hâlâ hepimiz bu sözü kullanıyoruz.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "ABD!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "ZAMAN = PARA",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Taym iz mani. Yani: Zaman paradır.",
+      "text": "Taym iz mani. Yani: Zaman paradır.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Time is money",
+          "roman": "",
+          "tr": "Zaman paradır.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Bu sözü Benjamin Franklin söyledi. 1748'de Genç Bir Esnafa Öğüt adlı yazısında, boş geçen zamanın aslında kaybedilmiş kazanç olduğunu anlattı.",
+      "text": "Bu sözü Benjamin Franklin söyledi. 1748'de Genç Bir Esnafa Öğüt adlı yazısında, boş geçen zamanın aslında kaybedilmiş kazanç olduğunu anlattı.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "banknote",
+          "x": 0.7,
+          "y": 0.4,
+          "scale": 0.9,
+          "symbol": "$",
+          "flutter": true
+        }
+      ]
+    },
+    {
+      "say": "Franklin bugün 100 dolarlık banknotun üzerinde. Yani sözünü söyleyen adam, kendi paranın üzerine yerleşmiş!",
+      "text": "Franklin bugün 100 dolarlık banknotun üzerinde. Yani sözünü söyleyen adam, kendi paranın üzerine yerleşmiş!",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "banknote",
+          "x": 0.7,
+          "y": 0.45,
+          "scale": 1.0,
+          "symbol": "$100",
+          "flutter": true
+        }
+      ]
+    },
+    {
+      "say": "Zaman gerçekten para olsaydı, telefonda kaydırarak geçirdiğimiz saatlerle hepimiz iflas ederdik!",
+      "text": "Zaman gerçekten para olsaydı, telefonda kaydırarak geçirdiğimiz saatlerle hepimiz iflas ederdik!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "İFLAS!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 100,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Parayı kaybedersen geri kazanırsın, zamanı kaybedersen asla!",
+      "text": "Günün dersi: Parayı kaybedersen geri kazanırsın, zamanı kaybedersen asla!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın İngiltere'ye gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın İngiltere'ye gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "ABD",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: İNGİLTERE!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

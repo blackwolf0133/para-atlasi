@@ -1,0 +1,254 @@
+{
+  "id": "007",
+  "series": "PARA ATLASI",
+  "title": "Brezilyalı Tavuk Kursağını Böyle Doldurur",
+  "country": {
+    "name": "Brezilya",
+    "code": "BR"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Brezilyalı tavuk bile tasarruf biliyor 🐔🇧🇷\n\n\"De grão em grão, a galinha enche o papo.\" Yani: Tane tane yiyen tavuğun kursağı dolar. Brezilya'da küçük adımlarla büyük sonuca ulaşmayı anlatmak için çok kullanılan bir deyiş.\n\nSen hangi alışkanlığı tane tane biriktirdin? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #brezilya #atasözü #birikim #paraatlası",
+  "scenes": [
+    {
+      "say": "Brezilyalılar bir tavuğa bakıp paranın sırrını öğrenmiş. Hem de tek bir tahılla!",
+      "text": "Brezilyalılar bir tavuğa bakıp paranın sırrını öğrenmiş. Hem de tek bir tahılla!",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "BREZİLYA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "TAVUK?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Ci grav eyn grav, a galinya enşi u papu. Yani: Tane tane, tavuk kursağını doldurur.",
+      "text": "Ci grav eyn grav, a galinya enşi u papu. Yani: Tane tane, tavuk kursağını doldurur.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "De grão em grão, a galinha enche o papo",
+          "roman": "",
+          "tr": "Tane tane, tavuk kursağını doldurur.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Tavuk tek seferde koca bir çuval yemez. Her gün biraz biraz yer ama sonunda karnı da kursağı da dolar.",
+      "text": "Tavuk tek seferde koca bir çuval yemez. Her gün biraz biraz yer ama sonunda karnı da kursağı da dolar.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "R",
+          "scale": 1.2
+        }
+      ]
+    },
+    {
+      "say": "Para da öyle! Küçük küçük kenara koyduğun miktarlar, zamanla büyük bir birikime dönüşür. Bizdeki damlaya damlaya göl olur sözüyle aynı akıl.",
+      "text": "Para da öyle! Küçük küçük kenara koyduğun miktarlar, zamanla büyük bir birikime dönüşür. Bizdeki damlaya damlaya göl olur sözüyle aynı akıl.",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 1.0,
+          "scale": 0.8
+        },
+        {
+          "type": "coin",
+          "x": 0.74,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 2.8,
+          "scale": 0.8
+        }
+      ]
+    },
+    {
+      "say": "Tavuk bile tane tane biriktirmeyi biliyor. Biz ise kahve fiyatına şaşırıp kafa tavuğu gibi dönüyoruz!",
+      "text": "Tavuk bile tane tane biriktirmeyi biliyor. Biz ise kahve fiyatına şaşırıp kafa tavuğu gibi dönüyoruz!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "KOT KOT!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 100,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Büyük hedefler, küçük adımların toplamıdır!",
+      "text": "Günün dersi: Büyük hedefler, küçük adımların toplamıdır!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.72,
+          "y": 0.93,
+          "n": 4
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Amerika Birleşik Devletleri'ne gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Amerika Birleşik Devletleri'ne gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Brezilya",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: ABD!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

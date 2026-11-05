@@ -1,0 +1,240 @@
+{
+  "id": "009",
+  "series": "PARA ATLASI",
+  "title": "İngilizler Parasını Böyle Kaybeder",
+  "country": {
+    "name": "İngiltere",
+    "code": "GB"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "İngilizlerin harcama uyarısı 🇬🇧🎩\n\n\"A fool and his money are soon parted.\" Yani: Düşünmeden harcayanın parası çabuk gider. Benzer bir biçimi Thomas Tusser'ın 1573 tarihli şiirinde geçiyor.\n\nSon pişman olduğun alışveriş neydi? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #ingiltere #atasözü #harcama #paraatlası",
+  "scenes": [
+    {
+      "say": "İngilizler düşünmeden harcayanı uyarmak için çok eski bir söz kullanır. Peki parayı kim, nasıl kaybediyor?",
+      "text": "İngilizler düşünmeden harcayanı uyarmak için çok eski bir söz kullanır. Peki parayı kim, nasıl kaybediyor?",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "İNGİLTERE!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "PARA GİDİYOR",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "A ful end hiz mani ar sun partıd. Yani: Düşünmeden harcayanın parası çabuk gider.",
+      "text": "A ful end hiz mani ar sun partıd. Yani: Düşünmeden harcayanın parası çabuk gider.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "A fool and his money are soon parted",
+          "roman": "",
+          "tr": "Düşünmeden harcayanın parası çabuk gider.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Benzer bir biçimi, Thomas Tusser'ın 1573 tarihli bir şiirinde geçiyor. Yani söz yaklaşık 450 yıldır dilimizde yaşıyor.",
+      "text": "Benzer bir biçimi, Thomas Tusser'ın 1573 tarihli bir şiirinde geçiyor. Yani söz yaklaşık 450 yıldır dilimizde yaşıyor.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "tophat"
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "£",
+          "scale": 1.3
+        }
+      ]
+    },
+    {
+      "say": "Anlamı şu: Parayı düşünmeden harcayan, onu uzun süre elinde tutamaz. Bir şey almadan önce kendine bir sor: Gerçekten ihtiyacım var mı?",
+      "text": "Anlamı şu: Parayı düşünmeden harcayan, onu uzun süre elinde tutamaz. Bir şey almadan önce kendine bir sor: Gerçekten ihtiyacım var mı?",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "tophat"
+        }
+      ],
+      "props": [
+        {
+          "type": "wallet",
+          "x": 0.72,
+          "y": 0.8,
+          "scale": 0.8,
+          "empty": true
+        }
+      ]
+    },
+    {
+      "say": "Mesela yüzde 70 indirimde bir şey alan kişi 'tam 70 lira kazandım' der. Oysa 30 lira harcamış!",
+      "text": "Mesela yüzde 70 indirimde bir şey alan kişi 'tam 70 lira kazandım' der. Oysa 30 lira harcamış!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55,
+          "hat": "tophat"
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "30 LİRA!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 100,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Almadan önce bir dur, düşün, sonra al!",
+      "text": "Günün dersi: Almadan önce bir dur, düşün, sonra al!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın İtalya'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın İtalya'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "İngiltere",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: İTALYA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

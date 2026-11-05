@@ -1,0 +1,248 @@
+{
+  "id": "006",
+  "series": "PARA ATLASI",
+  "title": "Mısırlılar Beyaz Parayı Neden Saklar?",
+  "country": {
+    "name": "Mısır",
+    "code": "EG"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Beyaz parayı kara gün için saklayın 🇪🇬🪙\n\nArap dünyasında, Mısır'da da çok bilinen bir söz: \"Beyaz kuruşunu kara günün için sakla.\" Temiz kazandığın parayı zor günler için kenara ayırmayı öğütler. Bizdeki \"ak akçe kara gün içindir\" sözünün kuzeni gibi!\n\nSen kara gün için kenara para ayırır mısın? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #mısır #atasözü #birikim #paraatlası",
+  "scenes": [
+    {
+      "say": "Mısırlılar beyaz parayı neden hep kara günler için saklar, biliyor musun? Çünkü bu konuda çok eski bir sözleri var.",
+      "text": "Mısırlılar beyaz parayı neden hep kara günler için saklar, biliyor musun? Çünkü bu konuda çok eski bir sözleri var.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "MISIR!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "BEYAZ & KARA",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Habbi kırşek il ebyad li yevmek il esved. Yani: Beyaz kuruşunu, kara günün için sakla.",
+      "text": "Habbi kırşek il ebyad li yevmek il esved. Yani: Beyaz kuruşunu, kara günün için sakla.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Khabbi qershak el-abyad li-yomak el-aswad",
+          "roman": "",
+          "tr": "Beyaz kuruşunu kara günün için sakla.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Bu söz Arap dünyasında, Mısır'da da çok bilinir. Beyaz kuruş temiz, çalışarak kazanılmış parayı, kara gün de zor günleri anlatır.",
+      "text": "Bu söz Arap dünyasında, Mısır'da da çok bilinir. Beyaz kuruş temiz, çalışarak kazanılmış parayı, kara gün de zor günleri anlatır.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "point",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "nemes"
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "E",
+          "scale": 1.3
+        }
+      ]
+    },
+    {
+      "say": "Yani bugün her parayı harcama, bir kısmını yarının zor günü için kenara ayır. Bir önceki sözümüzün tam kuzeni!",
+      "text": "Yani bugün her parayı harcama, bir kısmını yarının zor günü için kenara ayır. Bir önceki sözümüzün tam kuzeni!",
+      "bg": "vault",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2,
+          "hat": "nemes"
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "coin",
+          "x": 0.72,
+          "y": 0.2,
+          "to_y": 0.62,
+          "move_dur": 0.8,
+          "delay": 1.5,
+          "scale": 0.8
+        }
+      ]
+    },
+    {
+      "say": "Düşünsene, firavunlar kara gün için öyle bir biriktirmiş ki, adı piramit olmuş!",
+      "text": "Düşünsene, firavunlar kara gün için öyle bir biriktirmiş ki, adı piramit olmuş!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55,
+          "hat": "nemes"
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "PİRAMİT!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 100,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Güneşli günde gölgelik hazırlayanın, yağmurdan canı yanmaz!",
+      "text": "Günün dersi: Güneşli günde gölgelik hazırlayanın, yağmurdan canı yanmaz!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Brezilya'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Brezilya'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Mısır",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: BREZİLYA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

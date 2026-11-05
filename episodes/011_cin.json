@@ -1,0 +1,238 @@
+{
+  "id": "011",
+  "series": "PARA ATLASI",
+  "title": "Çinlilere Göre Para Neyi Çevirtir?",
+  "country": {
+    "name": "Çin",
+    "code": "CN"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Çin'de paranın gücü böyle anlatılır 🇨🇳🪙\n\n有钱能使鬼推磨 (Yǒu qián néng shǐ guǐ tuī mò): \"Parası olan, hayalete bile değirmen çevirtir.\" Çin'de çok bilinen bu söz, paranın ne kadar güçlü olduğunu abartarak anlatır.\n\nSence para gerçekten her kapıyı açar mı? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #çin #atasözü #güç #paraatlası",
+  "scenes": [
+    {
+      "say": "Çinlilere göre para öyle güçlü ki, hayaletlere bile iş yaptırabilir. Hem de değirmen çevirtir!",
+      "text": "Çinlilere göre para öyle güçlü ki, hayaletlere bile iş yaptırabilir. Hem de değirmen çevirtir!",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "ÇİN!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "HAYALET?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Yo çiyen neng şı guey tuey mo. Yani: Parası olan, hayalete bile değirmen çevirtir.",
+      "text": "Yo çiyen neng şı guey tuey mo. Yani: Parası olan, hayalete bile değirmen çevirtir.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "有钱能使鬼推磨",
+          "roman": "Yǒu qián néng shǐ guǐ tuī mò",
+          "tr": "Parası olan, hayalete bile değirmen çevirtir.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Eskiden değirmen taşını döndürmek çok yorucu bir işti. Söz diyor ki: Para varsa, kimse yorucu işten kaçmaz. Hayalet bile!",
+      "text": "Eskiden değirmen taşını döndürmek çok yorucu bir işti. Söz diyor ki: Para varsa, kimse yorucu işten kaçmaz. Hayalet bile!",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "push",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "coin",
+          "x": 0.7,
+          "y": 0.4,
+          "symbol": "¥",
+          "scale": 1.3
+        }
+      ]
+    },
+    {
+      "say": "Bu söz, paranın gücünü abartarak anlatır. Çin'de çok bilinir ve çoğu zaman biraz da eleştiri tonuyla söylenir.",
+      "text": "Bu söz, paranın gücünü abartarak anlatır. Çin'de çok bilinir ve çoğu zaman biraz da eleştiri tonuyla söylenir.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.28,
+          "pose": "open",
+          "face": "happy",
+          "scale": 1.2
+        }
+      ],
+      "props": [
+        {
+          "type": "banknote",
+          "x": 0.7,
+          "y": 0.4,
+          "scale": 0.9,
+          "symbol": "¥",
+          "flutter": true
+        }
+      ]
+    },
+    {
+      "say": "Hayalet bile para için çalışıyorsa, pazartesi sabahı yorgun olmamız çok normal!",
+      "text": "Hayalet bile para için çalışıyorsa, pazartesi sabahı yorgun olmamız çok normal!",
+      "bg": "city",
+      "emotion": "şaşkın",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.3,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.2,
+          "pose2": "shock",
+          "face2": "shock",
+          "switch": 0.55
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "PAZARTESİ!",
+          "x": 0.68,
+          "y": 0.28,
+          "size": 100,
+          "f": 0.6,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Günün dersi: Para çok iş yaptırır, ama saygıyı ve dostluğu satın alamaz!",
+      "text": "Günün dersi: Para çok iş yaptırır, ama saygıyı ve dostluğu satın alamaz!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Yarın Fransa'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Yarın Fransa'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Çin",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: FRANSA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}
