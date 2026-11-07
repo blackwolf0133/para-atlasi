@@ -11,11 +11,11 @@
     "noise": 0.2,
     "noise_w": 0.3
   },
-  "instagram_caption": "Zaman da para mı? 🇺🇸⏰\n\n\"Time is money\": Zaman paradır. Bu sözü Benjamin Franklin 1748'de \"Genç Bir Esnafa Öğüt\" yazısında yazdı. Franklin bugün 100 dolarlık banknotun üzerinde!\n\nSence zaman mı daha değerli, para mı? Yorumlara yaz 👇\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #abd #franklin #zaman #paraatlası",
+  "instagram_caption": "Zaman da para mı? 🇺🇸⏰\n\n\"Time is money\": Zaman paradır. Bu sözü Benjamin Franklin 1748'de \"Genç Bir Esnafa Öğüt\" yazısında yazdı. Franklin bugün 100 dolarlık banknotun üzerinde!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #abd #franklin #zaman #paraatlası",
   "scenes": [
     {
-      "say": "Bir yazar çıkmış, 'zaman paradır' demiş. Üstelik 250 yıldan fazla önce. Bugün hâlâ hepimiz bu sözü kullanıyoruz.",
-      "text": "Bir yazar çıkmış, 'zaman paradır' demiş. Üstelik 250 yıldan fazla önce. Bugün hâlâ hepimiz bu sözü kullanıyoruz.",
+      "say": "'Zaman paradır' sözünü 278 yıl önce yazan adam, bugün paranın tam üstünde duruyor!",
+      "text": "'Zaman paradır' sözünü 278 yıl önce yazan adam, bugün paranın tam üstünde duruyor!",
       "voice_delay": 1.0,
       "narrator": {
         "x": 0.5,
