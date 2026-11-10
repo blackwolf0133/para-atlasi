@@ -1,26 +1,31 @@
 # Rakip/örnek hesap dersleri — Para Atlası
 
-Örnek hesap: **@bay.finans** (rakip.yml ile okunur: `inputs[hesap]=bay.finans`).
-Kural: senaryolarını, seri adlarını, hesaplarını, metinlerini ASLA kopyalama. Sadece neyin tuttuğunu öğren.
+Örnek hesap: **@mahalleceosu** (Mahalle CEO'su, rakip.yml ile okunur: `inputs[hesap]=mahalleceosu`).
+Kural: senaryolarını, başlıklarını, karakterini, metinlerini ASLA kopyalama. Sadece neyin tuttuğunu öğren.
+(Videolarında telifli müzik olduğu için API video dosyasını vermiyor; analiz başlık + beğeni/yorum üzerinden.)
 
-## 10 Kasım 2026 incelemesi (60 Reels, en iyi 5 video Gemini ile izlendi)
-- 67.986 takipçi, 107 gönderi. Fötr şapkalı, takım elbiseli sabit bir 2D maskot konuyu anlatıyor (bizde Kuruş var: aynı mantık).
-- Eylül: kuru "X Nedir?" tanım videoları (Aval, Reeskont, Mum grafiği…) → çoğu 150–800 beğeni. TUTMADI.
-- Ekim'den itibaren **gündelik fiyat + "Peki ona ne kalıyor?"** kalıbı → sıçrama:
-  latte/kafe 9.833 beğeni · 342 yorum; berber 2.532; ekmek/fırın 2.156; dürüm 1.270 · 82 yorum.
-  Ayrıca paradoks soruları: "Defterde kâr var ama kasada para yok. Nasıl olur?" 14.249; "Zenginler neden maaş almaz?" 16.156.
-- Video yapısı (65–77 sn): tanıdık fiyat + soru ("Hesaplayalım") → kalem kalem hesap, rakamlar ekranda renkli →
-  ortada ters köşe (fırıncı asıl parayı ekmekten değil vitrinden kazanır; yağmurlu günde dönercinin kârı yarıya iner) →
-  tek cümlelik özet → "Sıradaki konuyu yorumlara yaz". Yorumlar 55–342.
-- Açıklamada hesabın dökümü madde madde yazıyor ("rakamlar varsayım" notuyla). Kaydetme ve yorum getiriyor.
-- Altyazı: kelime kelime, kalın, sarı/beyaz; önemli rakamlar renkli vurgulu.
+## 10 Kasım 2026 incelemesi (55 gönderi, hepsi)
+- 113.112 takipçi, sadece 55 gönderi, ~4 ayda: 17 Temmuz'da başladı, 9 Ağustos'ta 10 bin takipçi, Kasım'da 113 bin.
+  Medyan 6.970 beğeni (Para Atlası'nın hedeflemesi gereken hesap tipi: az ama vurucu video).
+- Sabit maskot: "Fırşat" adlı goril (🦍) anlatıyor. Bizde Kuruş aynı rolde.
+- Konu: İş · Para · Kişisel gelişim; günlük hayattaki para/karar mekanizmaları.
+- İki dönem:
+  1. Temmuz–Eylül **"İki kişi" karşılaştırması**: aynı durumda iki farklı kişi ne yapar (kredi çeken iki kişi, araba alıp satan
+     iki kişi, hâlâ ailesiyle yaşayan iki kişi…). Büyümeyi bu başlattı: 2–48 bin beğeni (en iyiler: "İki Çalışan, İki Farklı Yol"
+     48 bin, "İki Farklı Müdür" 48 bin, "Araba Alıp Satan İki Kişi" 38 bin, "Hâlâ Ailesiyle Yaşayan İki Kişi" 32 bin).
+  2. Ekim'den itibaren **"tuzak / aldatmaca / neden" açıklamaları**: gündelik bir şeyin arkasındaki gizli mekanizma.
+     "Fark Etmeden Nasıl Yönlendiriliyoruz?" 192.930 beğeni · 1.160 yorum; "Hafta sonu kimin için?" 74 bin;
+     "Özgürlüğü Böyle Sattılar" 67 bin; "Karar Yorgunluğu" 36 bin; "Portakal Aldatmacası" 29 bin;
+     "İki Kafe Neden Yan Yana Açılır?" 24 bin; "Devlet Neden Herkese 1 Milyon TL Dağıtmıyor?" 22 bin.
+- Başlık = açıklama: 2–6 kelime, merak sorusu ya da "… Tuzağı / … Aldatmacası". Açıklamada başka hiçbir şey yok.
+- Paylaşım sıklığı: 2–3 günde bir. Az ama özenli.
+- Zayıf kalanlar: "kendi işini kurmak", "satış", "franchise" gibi dar iş konuları (2–5 bin).
 
 ## Para Atlası'na uyarlama
-- Kendi verimiz de aynı şeyi söylüyor: somut/komik görüntü veren sözler (Mısır "beyaz para kara gün" 1.954, Almanya "gübre" 1.591)
-  soyut olanlardan (Türkiye 361) 3–5 kat iyi.
-- Her sözü **günlük bir Türkiye para durumuna ve bir rakama** bağla: maaş günü, kira, market sepeti, kredi kartı asgari ödeme,
-  kahve parası, indirim kuponu, taksit. Yapı: söz → "Bizde bunun karşılığı: …" (rakamlı mini hesap) → ters köşe → ders.
-- Kanca: tanıdık bir fiyat ya da paradoks + soru ("Maaş 40 bin, ay sonu cüzdan boş. Japonlar buna tek kelimeyle cevap verir.").
-- Rakamlar `pop` yazısıyla ekranda görünsün; açıklamada 2–3 maddelik mini hesap olabilir ("rakamlar örnek").
-- Seri hissi: kapanışta "Ülke 8 / 30" sayacı; "Yarın: X" zinciri sürüyor.
-- Yatırım tavsiyesi yine YOK; hesaplar "örnek" diye sunulur.
+- **İki kişi karşılaştırması** bizim çöp adam motoruna birebir uygun: ülkenin sözünü uygulayan kişi ile uygulamayan kişi,
+  aynı durumda (maaş günü, kredi kartı, indirim, borç verme). Sonda hangisinin kazandığı + söz.
+- **Gizli mekanizma** açısı: her sözü günlük bir "tuzağa" bağla (indirim tuzağı, taksit tuzağı, "küçük harcama" tuzağı).
+  Söz, o tuzağa karşı yüzyıllardır bilinen cevaptır.
+- Kanca/başlık 2–6 kelime, merak ya da tuzak: "Taksit Tuzağı ve Japonlar", "Maaş Neden 10 Günde Biter?".
+- Sayılar somut olsun (maaş, kira, kahve), ama yatırım tavsiyesi YOK.
+- Kuruş maskot olarak her bölümde aynı, tanıdık replikleriyle.
