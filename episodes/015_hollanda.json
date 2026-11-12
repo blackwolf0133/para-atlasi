@@ -1,0 +1,289 @@
+{
+  "id": "015",
+  "series": "PARA ATLASI",
+  "title": "Günlük Kahve Tuzağı",
+  "country": {
+    "name": "Hollanda",
+    "code": "NL"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Günde bir kahve gibi görünür, yılda 29200 lira eder! 🇳🇱☕\n\n\"Zuinigheid met vlijt bouwt huizen als kastelen\": \"Tutumluluk ve çalışkanlık, evleri kale gibi yapar.\" Hollanda'da bilinen bir atasözü. Günde 80 liralık kahve yılda 29200, evden 20 liralık termos 7300 lira!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #hollanda #atasözü #kahve #paraatlası",
+  "scenes": [
+    {
+      "say": "Günde bir kahve gibi görünür, ama yılda 29200 lira eder! Hollandalıların bunun için kaleli bir sözü var.",
+      "text": "Günde bir kahve gibi görünür, ama yılda 29200 lira eder! Hollandalıların bunun için kaleli bir sözü var.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "HOLLANDA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "KAHVE?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Zöynihheyt met vleyt baut höyzen als kastelen. Yani: Tutumluluk ve çalışkanlık, evleri kale gibi yapar. Bu bir Hollanda atasözü.",
+      "text": "Zöynihheyt met vleyt baut höyzen als kastelen. Yani: Tutumluluk ve çalışkanlık, evleri kale gibi yapar. Bu bir Hollanda atasözü.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Zuinigheid met vlijt bouwt huizen als kastelen",
+          "roman": "",
+          "tr": "Tutumluluk ve çalışkanlık, evleri kale gibi yapar.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Jan her sabah 80 liralık kahveyi alıyor. Ayda 2400 lira, yılda tam 29200 lira.",
+      "text": "Jan her sabah 80 liralık kahveyi alıyor. Ayda 2400 lira, yılda tam 29200 lira.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "j",
+          "x": 0.25,
+          "pose": "relax",
+          "face": "happy",
+          "scale": 1.15
+        },
+        {
+          "id": "a",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "JAN",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "80 TL x 365",
+          "x": 0.32,
+          "y": 0.4,
+          "size": 76,
+          "f": 0.4,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Anna kahvesini evden termosla getiriyor. Tanesi 20 lira, yılda 7300 lira.",
+      "text": "Anna kahvesini evden termosla getiriyor. Tanesi 20 lira, yılda 7300 lira.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "j",
+          "x": 0.25,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15
+        },
+        {
+          "id": "a",
+          "x": 0.74,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "ANNA",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "20 TL x 365",
+          "x": 0.68,
+          "y": 0.4,
+          "size": 76,
+          "f": 0.4,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Fark yılda tam 21900 lira! Jan'ın kahvesi sıcak ama cüzdanı buz gibi.",
+      "text": "Fark yılda tam 21900 lira! Jan'ın kahvesi sıcak ama cüzdanı buz gibi.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "j",
+          "x": 0.25,
+          "pose": "shock",
+          "face": "shock",
+          "scale": 1.15
+        },
+        {
+          "id": "a",
+          "x": 0.74,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "YILDA 21900 TL",
+          "x": 0.5,
+          "y": 0.3,
+          "size": 84,
+          "f": 0.3,
+          "rot": -4
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: Küçük günlük harcama, yıl sonunda kale gibi büyür!",
+      "text": "Günün dersi: Küçük günlük harcama, yıl sonunda kale gibi büyür!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.74,
+          "y": 0.93,
+          "n": 4
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on beşincisi tamam. Yarın İsveç'e gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on beşincisi tamam. Yarın İsveç'e gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Hollanda",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 15 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: İSVEÇ!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

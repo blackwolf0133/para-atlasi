@@ -1,0 +1,289 @@
+{
+  "id": "016",
+  "series": "PARA ATLASI",
+  "title": "Üç Al İki Öde Tuzağı",
+  "country": {
+    "name": "İsveç",
+    "code": "SE"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Üç al iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var! 🇸🇪🛒\n\n\"Lagom är bäst\": \"Tam kararında olan en iyisidir.\" Lagom, ne az ne çok demek ve çevirisi zor bir İsveç kelimesi. 100 liralık şampuandan üç tane alıp 200 lira ödemek, ihtiyacın bir tane ise 100 lira fazla harcamaktır!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #isveç #atasözü #indirim #paraatlası",
+  "scenes": [
+    {
+      "say": "Üç al, iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var. Hem de çevirisi bile zor bir kelime!",
+      "text": "Üç al, iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var. Hem de çevirisi bile zor bir kelime!",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "İSVEÇ!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "3 AL 2 ÖDE?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Lagom e best. Yani: Tam kararında olan en iyisidir. Lagom, ne az ne çok demek. İsveç'te çok bilinen bir söz.",
+      "text": "Lagom e best. Yani: Tam kararında olan en iyisidir. Lagom, ne az ne çok demek. İsveç'te çok bilinen bir söz.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Lagom är bäst",
+          "roman": "",
+          "tr": "Tam kararında olan en iyisidir.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Lena üç al iki öde afişini görünce üç şampuan aldı. Tanesi 100 lira, toplam 200 lira ödedi ve 100 lira kazandım dedi.",
+      "text": "Lena üç al iki öde afişini görünce üç şampuan aldı. Tanesi 100 lira, toplam 200 lira ödedi ve 100 lira kazandım dedi.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "l",
+          "x": 0.25,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15
+        },
+        {
+          "id": "e",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "LENA",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "3 AL 2 ÖDE",
+          "x": 0.3,
+          "y": 0.4,
+          "size": 80,
+          "f": 0.5,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Erik'in ise tek şampuana ihtiyacı vardı. Bir tane aldı, 100 lira ödedi ve yoluna devam etti.",
+      "text": "Erik'in ise tek şampuana ihtiyacı vardı. Bir tane aldı, 100 lira ödedi ve yoluna devam etti.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "l",
+          "x": 0.25,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15
+        },
+        {
+          "id": "e",
+          "x": 0.74,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "ERİK",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "1 TANE = 100 TL",
+          "x": 0.66,
+          "y": 0.4,
+          "size": 66,
+          "f": 0.5,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Lena 100 lira kazandığını sandı ama cebinden 100 lira fazla çıktı. Üç şampuan var, kafa ise tek!",
+      "text": "Lena 100 lira kazandığını sandı ama cebinden 100 lira fazla çıktı. Üç şampuan var, kafa ise tek!",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "l",
+          "x": 0.25,
+          "pose": "shock",
+          "face": "shock",
+          "scale": 1.15
+        },
+        {
+          "id": "e",
+          "x": 0.74,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "100 TL FAZLA!",
+          "x": 0.5,
+          "y": 0.3,
+          "size": 84,
+          "f": 0.3,
+          "rot": -4
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: İhtiyacın yoksa bedava bile pahalıdır!",
+      "text": "Günün dersi: İhtiyacın yoksa bedava bile pahalıdır!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "goldbars",
+          "x": 0.74,
+          "y": 0.93,
+          "scale": 0.95
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on altıncısı tamam. Yarın Polonya'ya gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on altıncısı tamam. Yarın Polonya'ya gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "İsveç",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 16 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: POLONYA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

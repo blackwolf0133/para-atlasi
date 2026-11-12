@@ -1,0 +1,286 @@
+{
+  "id": "017",
+  "series": "PARA ATLASI",
+  "title": "Üstü Kalsın Tuzağı",
+  "country": {
+    "name": "Polonya",
+    "code": "PL"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Üstü kalsın demek kolay, peki yılda kaç lira eder? 🇵🇱🐔\n\n\"Grosz do grosza, a będzie kokosza\": \"Kuruş kuruşa eklenir, tavuk olur.\" Polonya atasözü; grosz kuruş, kokosz ise eski dilde tavuk demek. Günde 7 lira bozuk para, yılda 2555 lira eder!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #polonya #atasözü #bozukpara #paraatlası",
+  "scenes": [
+    {
+      "say": "Üstü kalsın deyince kimin cebine ne kadar gidiyor? Polonyalıların bozuk paraya tavuklu bir cevabı var!",
+      "text": "Üstü kalsın deyince kimin cebine ne kadar gidiyor? Polonyalıların bozuk paraya tavuklu bir cevabı var!",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "POLONYA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "ÜSTÜ KALSIN?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Groş do groşa, a bendje kokoşa. Yani: Kuruş kuruşa eklenir, tavuk olur. Groş, kuruş demek. Kokoşa ise eski dilde tavuk.",
+      "text": "Groş do groşa, a bendje kokoşa. Yani: Kuruş kuruşa eklenir, tavuk olur. Groş, kuruş demek. Kokoşa ise eski dilde tavuk.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Grosz do grosza, a będzie kokosza",
+          "roman": "",
+          "tr": "Kuruş kuruşa eklenir, tavuk olur.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Piotr her gün üstü kalsın diyor. Bozuk para ağır geliyor. Günde ortalama 7 lira bırakıyor.",
+      "text": "Piotr her gün üstü kalsın diyor. Bozuk para ağır geliyor. Günde ortalama 7 lira bırakıyor.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "p",
+          "x": 0.25,
+          "pose": "relax",
+          "face": "happy",
+          "scale": 1.15
+        },
+        {
+          "id": "o",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "PIOTR",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "ÜSTÜ KALSIN",
+          "x": 0.3,
+          "y": 0.4,
+          "size": 76,
+          "f": 0.5,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Ola ise üstünü alıp akşam kavanoza atıyor. O da günde yine 7 lira.",
+      "text": "Ola ise üstünü alıp akşam kavanoza atıyor. O da günde yine 7 lira.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "p",
+          "x": 0.25,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15
+        },
+        {
+          "id": "o",
+          "x": 0.74,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "OLA",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.75
+        }
+      ]
+    },
+    {
+      "say": "Bir yıl sonra Piotr'un 2555 lirası bahşiş olmuş. Ola'nın kavanozu ise 2555 lira dolu. Üstü kalsın demek kolay, üstüne üstlük pahalı!",
+      "text": "Bir yıl sonra Piotr'un 2555 lirası bahşiş olmuş. Ola'nın kavanozu ise 2555 lira dolu. Üstü kalsın demek kolay, üstüne üstlük pahalı!",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "p",
+          "x": 0.25,
+          "pose": "shock",
+          "face": "shock",
+          "scale": 1.15
+        },
+        {
+          "id": "o",
+          "x": 0.74,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "YILDA 2555 TL",
+          "x": 0.5,
+          "y": 0.3,
+          "size": 84,
+          "f": 0.3,
+          "rot": -4
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: Bozuk para küçük görünür, ama sayarsan büyür!",
+      "text": "Günün dersi: Bozuk para küçük görünür, ama sayarsan büyür!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.74,
+          "y": 0.93,
+          "n": 4
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on yedincisi tamam. Yarın Yunanistan'a gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on yedincisi tamam. Yarın Yunanistan'a gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Polonya",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 17 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: YUNANİSTAN!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

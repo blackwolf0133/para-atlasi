@@ -1,0 +1,289 @@
+{
+  "id": "013",
+  "series": "PARA ATLASI",
+  "title": "Ayın Sonunda Bozulan Makine",
+  "country": {
+    "name": "İspanya",
+    "code": "ES"
+  },
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Çamaşır makinesi hep ayın sonunda bozulur! 🇪🇸🧺\n\n\"Dinero llama dinero\": \"Para parayı çeker.\" Sözlüklerde İspanyolca atasözü olarak geçer. Kenarda parası olan, beklenmedik masrafta daha az öder: 6000 liralık makine peşin 6000, altı taksitle 7200 lira!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #ispanya #atasözü #tasarruf #paraatlası",
+  "scenes": [
+    {
+      "say": "Çamaşır makinesi hep ayın sonunda bozulur, değil mi? İspanyolların buna karşı eski bir sözü var.",
+      "text": "Çamaşır makinesi hep ayın sonunda bozulur, değil mi? İspanyolların buna karşı eski bir sözü var.",
+      "voice_delay": 1.0,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "İSPANYA!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "BOZULDU!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Dinero yama dinero. Yani: Para parayı çeker. Bu, İspanya'da bilinen bir atasözü.",
+      "text": "Dinero yama dinero. Yani: Para parayı çeker. Bu, İspanya'da bilinen bir atasözü.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Dinero llama dinero",
+          "roman": "",
+          "tr": "Para parayı çeker.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Kenan'ın makinesi bozuldu. Yenisi 6000 lira. Kenarda parası yok, mağaza altı taksitle toplam 7200 lira yazdı.",
+      "text": "Kenan'ın makinesi bozuldu. Yenisi 6000 lira. Kenarda parası yok, mağaza altı taksitle toplam 7200 lira yazdı.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.25,
+          "pose": "shrug",
+          "face": "sad",
+          "scale": 1.15
+        },
+        {
+          "id": "s",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "KENAN",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "7200 TL",
+          "x": 0.3,
+          "y": 0.4,
+          "size": 100,
+          "f": 0.5,
+          "rot": -6
+        }
+      ]
+    },
+    {
+      "say": "Selin ise her ay biraz kenara koymuş. Makine bozulunca 6000 lirayı peşin ödedi ve işi bitirdi.",
+      "text": "Selin ise her ay biraz kenara koymuş. Makine bozulunca 6000 lirayı peşin ödedi ve işi bitirdi.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.25,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15
+        },
+        {
+          "id": "s",
+          "x": 0.74,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "SELİN",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "6000 TL",
+          "x": 0.7,
+          "y": 0.4,
+          "size": 100,
+          "f": 0.5,
+          "rot": 6
+        }
+      ]
+    },
+    {
+      "say": "Aradaki fark tam 1200 lira. Kenan bunu bahşiş sanmış. Mağaza da teşekkür etti!",
+      "text": "Aradaki fark tam 1200 lira. Kenan bunu bahşiş sanmış. Mağaza da teşekkür etti!",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "k",
+          "x": 0.25,
+          "pose": "shock",
+          "face": "shock",
+          "scale": 1.15
+        },
+        {
+          "id": "s",
+          "x": 0.74,
+          "pose": "hips",
+          "face": "smug",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "FARK: 1200 TL",
+          "x": 0.5,
+          "y": 0.3,
+          "size": 92,
+          "f": 0.3,
+          "rot": -4
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: Kenarda para olan, zor günde daha az öder!",
+      "text": "Günün dersi: Kenarda para olan, zor günde daha az öder!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "piggy",
+          "x": 0.74,
+          "y": 0.83,
+          "scale": 0.9
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on üçüncüsü tamam. Yarın Hindistan'a gidiyoruz. Takip et, kaçırma!",
+      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on üçüncüsü tamam. Yarın Hindistan'a gidiyoruz. Takip et, kaçırma!",
+      "voice_delay": 0.5,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "İspanya",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 13 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: HİNDİSTAN!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

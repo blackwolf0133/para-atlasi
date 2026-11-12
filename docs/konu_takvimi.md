@@ -16,13 +16,13 @@ Durum: ✅ senaryosu yazıldı · ⬜ sırada (yazarken WebSearch ile söz, anla
 | 010 | 🇮🇹 İtalya | Chi non risica non rosica | Risk almayan kazanamaz (rosicare: kemirmek) | ✅ |
 | 011 | 🇨🇳 Çin | 有钱能使鬼推磨 (Yǒu qián néng shǐ guǐ tuī mò) | Parası olan hayalete bile değirmen çevirtir (guǐ = hayalet/ruh) | ✅ |
 | 012 | 🇫🇷 Fransa | L'argent n'a pas d'odeur | Paranın kokusu olmaz (Roma, Vespasianus hikâyesi) | ✅ |
-| 013 | 🇪🇸 İspanya | Dinero llama dinero | Para parayı çeker | ⬜ |
-| 014 | 🇮🇳 Hindistan | (doğrulanacak: Hintçe ya da Sanskrit para sözü) | | ⬜ |
-| 015 | 🇳🇱 Hollanda | Wie het kleine niet eert, is het grote niet weert | Küçüğü saymayan büyüğe layık olmaz | ⬜ |
-| 016 | 🇸🇪 İsveç | (doğrulanacak) | | ⬜ |
-| 017 | 🇵🇱 Polonya | (doğrulanacak) | | ⬜ |
-| 018 | 🇬🇷 Yunanistan | (doğrulanacak) | | ⬜ |
-| 019 | 🇮🇷 İran | (doğrulanacak: Farsça para sözü) | | ⬜ |
+| 013 | 🇪🇸 İspanya | Dinero llama dinero | Para parayı çeker (SpanishDict: atasözü, "the rich get richer") | ✅ |
+| 014 | 🇮🇳 Hindistan | जितनी चादर उतने पाँव फैलाओ (Jitni chadar, utne paon phailao) | Çarşafın kadar ayağını uzat (Rekhta sözlüğü: atasözü; videoda kartta Devanagari yerine okunuş) | ✅ |
+| 015 | 🇳🇱 Hollanda | Zuinigheid met vlijt bouwt huizen als kastelen | Tutumluluk ve çalışkanlık evleri kale gibi yapar (Onze Taal) | ✅ |
+| 016 | 🇸🇪 İsveç | Lagom är bäst | Tam kararında olan en iyisidir ("archetypical Swedish proverb", Wikipedia/Omniglot) | ✅ |
+| 017 | 🇵🇱 Polonya | Grosz do grosza, a będzie kokosza | Kuruş kuruşa eklenir, tavuk olur (kokosz: eski dilde tavuk) | ✅ |
+| 018 | 🇬🇷 Yunanistan | (doğrulanacak) NOT: "Η φτώχεια θέλει καλοπέραση" Akademi arşivinde var ama anlamı kaynaklarda tutarsız, kullanma; anlamı net başka bir söz bul | | ⬜ |
+| 019 | 🇮🇷 İran | (doğrulanacak) NOT: "Hesab hesabe, kaka baradar" 2. kaynakla doğrulanamadı; anlamı net, doğrulanabilir bir söz bul | | ⬜ |
 | 020 | 🇲🇽 Meksika | (doğrulanacak) | | ⬜ |
 | 021-030 | Nijerya, Güney Afrika, Vietnam, Tayland, Endonezya, Arjantin, Portekiz, İsrail, Norveç, Avustralya | (doğrulanacak) | | ⬜ |
 
