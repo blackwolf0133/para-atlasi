@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Kenan'ın makinesi bozuldu. Yenisi 6000 lira. Kenarda parası yok, mağaza altı taksitle toplam 7200 lira yazdı.",
-      "text": "Kenan'ın makinesi bozuldu. Yenisi 6000 lira. Kenarda parası yok, mağaza altı taksitle toplam 7200 lira yazdı.",
+      "say": "Kenan'ın makinesi bozuldu, yenisi 6000 lira. Kenarda parası yok, altı taksitle 7200 lira yazdılar.",
+      "text": "Kenan'ın makinesi bozuldu, yenisi 6000 lira. Kenarda parası yok, altı taksitle 7200 lira yazdılar.",
       "bg": "city",
       "actors": [
         {
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "say": "Selin ise her ay biraz kenara koymuş. Makine bozulunca 6000 lirayı peşin ödedi ve işi bitirdi.",
-      "text": "Selin ise her ay biraz kenara koymuş. Makine bozulunca 6000 lirayı peşin ödedi ve işi bitirdi.",
+      "say": "Selin her ay biraz kenara koymuş, 6000 lirayı peşin ödedi.",
+      "text": "Selin her ay biraz kenara koymuş, 6000 lirayı peşin ödedi.",
       "bg": "bank",
       "actors": [
         {
@@ -171,8 +171,8 @@
       ]
     },
     {
-      "say": "Aradaki fark tam 1200 lira. Kenan bunu bahşiş sanmış. Mağaza da teşekkür etti!",
-      "text": "Aradaki fark tam 1200 lira. Kenan bunu bahşiş sanmış. Mağaza da teşekkür etti!",
+      "say": "Fark tam 1200 lira. Kenan bunu bahşiş sanmış, mağaza teşekkür etti!",
+      "text": "Fark tam 1200 lira. Kenan bunu bahşiş sanmış, mağaza teşekkür etti!",
       "bg": "city",
       "actors": [
         {
@@ -233,8 +233,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on üçüncüsü tamam. Yarın Hindistan'a gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on üçüncüsü tamam. Yarın Hindistan'a gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 13 tamam. Bunu makinesi hep ay sonunda bozulan arkadaşına gönder. Yarın Hindistan!",
+      "text": "Ülke 13 tamam. Bunu makinesi hep ay sonunda bozulan arkadaşına gönder. Yarın Hindistan!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,

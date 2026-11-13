@@ -14,8 +14,8 @@
   "instagram_caption": "Paranın kokusu olmaz! 🇫🇷👃\n\n\"L'argent n'a pas d'odeur.\" Fransızcada çok bilinen bu söz, Roma imparatoru Vespasianus'a dayanan bir hikâyeden geliyor: Halk tuvaletlerinden vergi aldığı için oğlu itiraz edince bir parayı burnuna tutmuş.\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #fransa #atasözü #roma #paraatlası",
   "scenes": [
     {
-      "say": "Fransızlar paranın kokusuyla ilgili bir söz kullanır. Hikâyesi ise iki bin yıl önceki bir Roma imparatoruna dayanır!",
-      "text": "Fransızlar paranın kokusuyla ilgili bir söz kullanır. Hikâyesi ise iki bin yıl önceki bir Roma imparatoruna dayanır!",
+      "say": "Paranın kokusu olmaz diyen Fransızların sözü, iki bin yıllık bir Roma hikâyesinden gelir!",
+      "text": "Paranın kokusu olmaz diyen Fransızların sözü, iki bin yıllık bir Roma hikâyesinden gelir!",
       "voice_delay": 1.0,
       "narrator": {
         "x": 0.5,
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Hikâyeye göre Roma imparatoru Vespasianus, halk tuvaletlerinden vergi almaya başlamış. Oğlu Titus ise bundan hoşlanmamış.",
-      "text": "Hikâyeye göre Roma imparatoru Vespasianus, halk tuvaletlerinden vergi almaya başlamış. Oğlu Titus ise bundan hoşlanmamış.",
+      "say": "Roma imparatoru Vespasianus halk tuvaletlerinden vergi almaya başlamış. Oğlu Titus hoşlanmamış.",
+      "text": "Roma imparatoru Vespasianus halk tuvaletlerinden vergi almaya başlamış. Oğlu Titus hoşlanmamış.",
       "bg": "city",
       "actors": [
         {
@@ -111,8 +111,8 @@
       ]
     },
     {
-      "say": "İmparator bir parayı oğlunun burnuna tutup 'Kokuyor mu?' diye sormuş. Cevap hayır olunca da sözün çıkış hikâyesi tamamlanmış.",
-      "text": "İmparator bir parayı oğlunun burnuna tutup 'Kokuyor mu?' diye sormuş. Cevap hayır olunca da sözün çıkış hikâyesi tamamlanmış.",
+      "say": "İmparator bir parayı oğlunun burnuna tutup Kokuyor mu diye sormuş. Cevap hayır!",
+      "text": "İmparator bir parayı oğlunun burnuna tutup Kokuyor mu diye sormuş. Cevap hayır!",
       "bg": "bank",
       "actors": [
         {
@@ -136,8 +136,8 @@
       ]
     },
     {
-      "say": "Romalılar tuvaletten bile vergi almış. Bizim faturalar bunun yanında çiçek gibi kalır!",
-      "text": "Romalılar tuvaletten bile vergi almış. Bizim faturalar bunun yanında çiçek gibi kalır!",
+      "say": "Romalılar tuvaletten bile vergi almış. Bizim faturalar çiçek gibi kalır!",
+      "text": "Romalılar tuvaletten bile vergi almış. Bizim faturalar çiçek gibi kalır!",
       "bg": "city",
       "emotion": "şaşkın",
       "actors": [
@@ -194,8 +194,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Yarın İspanya'ya gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Yarın İspanya'ya gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 12 tamam. Bunu her faturaya sinirlenen arkadaşına gönder. Yarın İspanya!",
+      "text": "Ülke 12 tamam. Bunu her faturaya sinirlenen arkadaşına gönder. Yarın İspanya!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,

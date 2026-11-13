@@ -14,8 +14,8 @@
   "instagram_caption": "Çin'de paranın gücü böyle anlatılır 🇨🇳🪙\n\n有钱能使鬼推磨 (Yǒu qián néng shǐ guǐ tuī mò): \"Parası olan, hayalete bile değirmen çevirtir.\" Çin'de çok bilinen bu söz, paranın ne kadar güçlü olduğunu abartarak anlatır.\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #çin #atasözü #güç #paraatlası",
   "scenes": [
     {
-      "say": "Çinlilere göre para öyle güçlü ki, hayaletlere bile iş yaptırabilir. Hem de değirmen çevirtir!",
-      "text": "Çinlilere göre para öyle güçlü ki, hayaletlere bile iş yaptırabilir. Hem de değirmen çevirtir!",
+      "say": "Para öyle güçlü ki hayalete bile değirmen çevirtir! Çinlilerin ünlü sözü bu.",
+      "text": "Para öyle güçlü ki hayalete bile değirmen çevirtir! Çinlilerin ünlü sözü bu.",
       "voice_delay": 1.0,
       "narrator": {
         "x": 0.5,
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Eskiden değirmen taşını döndürmek çok yorucu bir işti. Söz diyor ki: Para varsa, kimse yorucu işten kaçmaz. Hayalet bile!",
-      "text": "Eskiden değirmen taşını döndürmek çok yorucu bir işti. Söz diyor ki: Para varsa, kimse yorucu işten kaçmaz. Hayalet bile!",
+      "say": "Eskiden değirmen taşını döndürmek çok yorucuydu. Söz diyor ki: Para varsa hayalet bile çalışır.",
+      "text": "Eskiden değirmen taşını döndürmek çok yorucuydu. Söz diyor ki: Para varsa hayalet bile çalışır.",
       "bg": "city",
       "actors": [
         {
@@ -110,8 +110,8 @@
       ]
     },
     {
-      "say": "Bu söz, paranın gücünü abartarak anlatır. Çin'de çok bilinir ve çoğu zaman biraz da eleştiri tonuyla söylenir.",
-      "text": "Bu söz, paranın gücünü abartarak anlatır. Çin'de çok bilinir ve çoğu zaman biraz da eleştiri tonuyla söylenir.",
+      "say": "Çin'de çok bilinir, çoğu zaman biraz da eleştiriyle söylenir.",
+      "text": "Çin'de çok bilinir, çoğu zaman biraz da eleştiriyle söylenir.",
       "bg": "bank",
       "actors": [
         {
@@ -134,8 +134,8 @@
       ]
     },
     {
-      "say": "Hayalet bile para için çalışıyorsa, pazartesi sabahı yorgun olmamız çok normal!",
-      "text": "Hayalet bile para için çalışıyorsa, pazartesi sabahı yorgun olmamız çok normal!",
+      "say": "Hayalet bile para için çalışıyorsa, pazartesi yorgunluğumuz normal!",
+      "text": "Hayalet bile para için çalışıyorsa, pazartesi yorgunluğumuz normal!",
       "bg": "city",
       "emotion": "şaşkın",
       "actors": [
@@ -191,8 +191,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Yarın Fransa'ya gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Yarın Fransa'ya gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 11 tamam. Bunu pazartesi sabahı hayalet gibi işe giden arkadaşına gönder. Yarın Fransa!",
+      "text": "Ülke 11 tamam. Bunu pazartesi sabahı hayalet gibi işe giden arkadaşına gönder. Yarın Fransa!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,

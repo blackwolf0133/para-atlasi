@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Jan her sabah 80 liralık kahveyi alıyor. Ayda 2400 lira, yılda tam 29200 lira.",
-      "text": "Jan her sabah 80 liralık kahveyi alıyor. Ayda 2400 lira, yılda tam 29200 lira.",
+      "say": "Jan her sabah 80 liralık kahve alıyor. Yılda tam 29200 lira.",
+      "text": "Jan her sabah 80 liralık kahve alıyor. Yılda tam 29200 lira.",
       "bg": "city",
       "actors": [
         {
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "say": "Anna kahvesini evden termosla getiriyor. Tanesi 20 lira, yılda 7300 lira.",
-      "text": "Anna kahvesini evden termosla getiriyor. Tanesi 20 lira, yılda 7300 lira.",
+      "say": "Anna kahvesini evden termosla getiriyor. Yılda 7300 lira.",
+      "text": "Anna kahvesini evden termosla getiriyor. Yılda 7300 lira.",
       "bg": "bank",
       "actors": [
         {
@@ -171,8 +171,8 @@
       ]
     },
     {
-      "say": "Fark yılda tam 21900 lira! Jan'ın kahvesi sıcak ama cüzdanı buz gibi.",
-      "text": "Fark yılda tam 21900 lira! Jan'ın kahvesi sıcak ama cüzdanı buz gibi.",
+      "say": "Fark yılda 21900 lira! Jan'ın kahvesi sıcak, cüzdanı buz gibi.",
+      "text": "Fark yılda 21900 lira! Jan'ın kahvesi sıcak, cüzdanı buz gibi.",
       "bg": "city",
       "actors": [
         {
@@ -233,8 +233,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on beşincisi tamam. Yarın İsveç'e gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on beşincisi tamam. Yarın İsveç'e gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 15 tamam. Bunu her sabah kahveye koşan arkadaşına gönder. Yarın İsveç!",
+      "text": "Ülke 15 tamam. Bunu her sabah kahveye koşan arkadaşına gönder. Yarın İsveç!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,
