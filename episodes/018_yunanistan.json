@@ -1,0 +1,263 @@
+{
+  "id": "018",
+  "series": "PARA ATLASI",
+  "title": "Maaş Günü Fasulye Torbası",
+  "country": {
+    "name": "Yunanistan",
+    "code": "GR"
+  },
+  "kanca_yazi": "Yunanlılar parayı fasulyeyle sayar!",
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Yunanlılar parayı fasulyeyle sayar! 🇬🇷🫘\n\n\"Φασούλι το φασούλι γεμίζει το σακούλι\": \"Fasulye fasulye torba dolar.\" Yunan atasözü (Atina Akademisi atasözü arşivinde çok sayıda varyantı var). Maaş günü ilk iş ayda 500 lira ayıran, yılda 6000 lira biriktirir!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #yunanistan #atasözü #maaşgünü #paraatlası",
+  "scenes": [
+    {
+      "say": "Yunanlılar parayı fasulyeyle sayar! Maaş neden hep 10 günde biter? Cevap bir torba fasulyede.",
+      "text": "Yunanlılar parayı fasulyeyle sayar! Maaş neden hep 10 günde biter? Cevap bir torba fasulyede.",
+      "voice_delay": 0.4,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "YUNANİSTAN!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "FASULYE?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Fasuli to fasuli, yemizi to sakuli. Yani: Fasulye fasulye, torba dolar. Yunanistan'da bilinen bir atasözü.",
+      "text": "Fasuli to fasuli, yemizi to sakuli. Yani: Fasulye fasulye, torba dolar. Yunanistan'da bilinen bir atasözü.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Φασούλι το φασούλι γεμίζει το σακούλι",
+          "roman": "",
+          "tr": "Fasulye fasulye, torba dolar.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Eleni maaşı alınca harcıyor, kalan olursa biriktiririm diyor. Ay sonunda kalan hep sıfır.",
+      "text": "Eleni maaşı alınca harcıyor, kalan olursa biriktiririm diyor. Ay sonunda kalan hep sıfır.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "e",
+          "x": 0.25,
+          "pose": "shrug",
+          "face": "sad",
+          "scale": 1.15
+        },
+        {
+          "id": "n",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "ELENİ",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "KALAN: 0 TL",
+          "x": 0.3,
+          "y": 0.4,
+          "size": 80,
+          "f": 0.5,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Nikos maaş günü ilk iş 500 lirayı torbaya atıyor, kalanıyla yaşıyor. Yılda 6000 lira birikiyor.",
+      "text": "Nikos maaş günü ilk iş 500 lirayı torbaya atıyor, kalanıyla yaşıyor. Yılda 6000 lira birikiyor.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "e",
+          "x": 0.25,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15
+        },
+        {
+          "id": "n",
+          "x": 0.74,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "NİKOS",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "YILDA 6000 TL",
+          "x": 0.62,
+          "y": 0.4,
+          "size": 72,
+          "f": 0.5,
+          "rot": 5
+        },
+        {
+          "type": "piggy",
+          "x": 0.72,
+          "y": 0.83,
+          "scale": 0.7
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: Önce torbayı doldur, kalanı harca!",
+      "text": "Günün dersi: Önce torbayı doldur, kalanı harca!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "coins",
+          "x": 0.74,
+          "y": 0.93,
+          "n": 4
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Ülke 18 tamam. Bunu maaşı hep erken biten arkadaşına gönder. Yarın İran'a!",
+      "text": "Ülke 18 tamam. Bunu maaşı hep erken biten arkadaşına gönder. Yarın İran'a!",
+      "voice_delay": 0.3,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Yunanistan",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 18 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: İRAN!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

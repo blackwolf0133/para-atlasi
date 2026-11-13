@@ -21,9 +21,13 @@ Durum: ✅ senaryosu yazıldı · ⬜ sırada (yazarken WebSearch ile söz, anla
 | 015 | 🇳🇱 Hollanda | Zuinigheid met vlijt bouwt huizen als kastelen | Tutumluluk ve çalışkanlık evleri kale gibi yapar (Onze Taal) | ✅ |
 | 016 | 🇸🇪 İsveç | Lagom är bäst | Tam kararında olan en iyisidir ("archetypical Swedish proverb", Wikipedia/Omniglot) | ✅ |
 | 017 | 🇵🇱 Polonya | Grosz do grosza, a będzie kokosza | Kuruş kuruşa eklenir, tavuk olur (kokosz: eski dilde tavuk) | ✅ |
-| 018 | 🇬🇷 Yunanistan | (doğrulanacak) NOT: "Η φτώχεια θέλει καλοπέραση" Akademi arşivinde var ama anlamı kaynaklarda tutarsız, kullanma; anlamı net başka bir söz bul | | ⬜ |
-| 019 | 🇮🇷 İran | (doğrulanacak) NOT: "Hesab hesabe, kaka baradar" 2. kaynakla doğrulanamadı; anlamı net, doğrulanabilir bir söz bul | | ⬜ |
-| 020 | 🇲🇽 Meksika | (doğrulanacak) | | ⬜ |
-| 021-030 | Nijerya, Güney Afrika, Vietnam, Tayland, Endonezya, Arjantin, Portekiz, İsrail, Norveç, Avustralya | (doğrulanacak) | | ⬜ |
+| 018 | 🇬🇷 Yunanistan | Φασούλι το φασούλι γεμίζει το σακούλι | Fasulye fasulye torba dolar (Atina Akademisi atasözü arşivi, çok sayıda varyant) | ✅ |
+| 019 | 🇮🇷 İran | Hesâb be dinâr, bakhshesh be kharvâr (حساب به دینار، بخشش به خروار) | Hesap kuruşu kuruşuna, bağış eşek yükü kadar (beytoote Farsça atasözü listesi; 2. kaynak aranmalı, kart Latin okunuşla) | ✅ |
+| 020 | 🇲🇽 Meksika | Cuentas claras, amistades largas | Hesaplar net olursa dostluklar uzun olur (Meksika refran derlemeleri, SpanishDict) | ✅ |
+| 021 | 🇿🇦 Güney Afrika | Goedkoop koop is duurkoop | Ucuza alan pahalıya almış olur (Afrikaans; AfrikaansPod101) | ✅ |
+| 022 | 🇻🇳 Vietnam | Tiền trao cháo múc | Para uzanınca çorba kepçelenir: ödeme ve teslim aynı anda (Vietnam deyimi; adoptvietnam; kartta Vietnamca harf fontta yok, ASCII yazıldı) | ✅ |
+| 023 | 🇹🇭 Tayland | เห็นช้างขี้ ขี้ตามช้าง (Hen cháang khîi, khîi dtaam cháang) | Fili görüp onun gibi gitme: özenip gücünü aşma (trueplookpanya; kart Latin okunuşla) | ✅ |
+| 024 | 🇮🇩 Endonezya | Sedia payung sebelum hujan | Yağmurdan önce şemsiyeni hazırla (Endonezya/Malay peribahasa; Great Eastern "Sediakan payung…" varyantı) | ✅ |
+| 025-030 | Arjantin (sırada), Portekiz, İsrail, Norveç, Avustralya, Nijerya | (doğrulanacak) NOT: Nijerya için 13 Kasım'da Yoruba/Igbo orijinal metni 2 kaynakta bulunamadı, sona ertelendi; orijinal yazımı doğrulanan bir söz bul | | ⬜ |
 
 **Kural:** Kaynağı net olmayan sözü kullanma. Atasözü mü, ünlü bir kişinin sözü mü, halk deyişi mi: videoda belirt. Söz ülkeye ait olduğundan emin değilsek "X'te çok bilinir" de.

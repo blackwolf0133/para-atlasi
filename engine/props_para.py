@@ -32,6 +32,7 @@ SIMPLE = {
     "PL": ("h", [WHITE, RED]),
     "UA": ("h", [(0.0, 0.36, 0.73), YELLOW]),
     "ID": ("h", [RED, WHITE]),
+    "IR": ("h", [(0.14, 0.62, 0.25), WHITE, (0.85, 0.10, 0.10)]),
 }
 
 
@@ -140,6 +141,27 @@ def draw_cflag(ctx, code, x, y, w, h, t=0.0, wave=True):
         ctx.set_source_rgb(0.05, 0.37, 0.69); ctx.rectangle(x, y, h * 5 / 9, h * 5 / 9); ctx.fill()
         line(ctx, (x + h * 2.5 / 9, y), (x + h * 2.5 / 9, y + h * 5 / 9), WHITE, h / 9)
         line(ctx, (x, y + h * 2.5 / 9), (x + h * 5 / 9, y + h * 2.5 / 9), WHITE, h / 9)
+    elif code == "TH":
+        acc = 0.0
+        for c, f in [((0.65, 0.12, 0.20), 1), (WHITE, 1), ((0.18, 0.15, 0.40), 2), (WHITE, 1), ((0.65, 0.12, 0.20), 1)]:
+            ctx.set_source_rgb(*c); ctx.rectangle(x, y + h * acc / 6, w, h * f / 6 + 1); ctx.fill(); acc += f
+    elif code == "VN":
+        ctx.set_source_rgb(0.85, 0.12, 0.15); ctx.rectangle(x, y, w, h); ctx.fill()
+        ctx.set_source_rgb(1.0, 0.87, 0.0); _star(ctx, x + w / 2, y + h * 0.53, h * 0.3); ctx.fill()
+    elif code == "ZA":
+        ctx.set_source_rgb(0.88, 0.24, 0.20); ctx.rectangle(x, y, w, h / 2); ctx.fill()
+        ctx.set_source_rgb(0.0, 0.20, 0.55); ctx.rectangle(x, y + h / 2, w, h / 2); ctx.fill()
+        ctx.set_source_rgb(*WHITE)
+        ctx.move_to(x, y); ctx.line_to(x + w * 0.42, y + h / 2); ctx.line_to(x, y + h); ctx.close_path(); ctx.fill()
+        line(ctx, (x + w * 0.4, y + h / 2), (x + w, y + h / 2), WHITE, h * 0.36)
+        ctx.set_source_rgb(0.0, 0.47, 0.35)
+        ctx.move_to(x, y + h * 0.1); ctx.line_to(x + w * 0.37, y + h / 2); ctx.line_to(x, y + h * 0.9); ctx.close_path(); ctx.fill()
+        line(ctx, (x + w * 0.35, y + h / 2), (x + w, y + h / 2), (0.0, 0.47, 0.35), h * 0.22)
+        ctx.set_source_rgb(0.0, 0.0, 0.0)
+        ctx.move_to(x, y + h * 0.22); ctx.line_to(x + w * 0.24, y + h / 2); ctx.line_to(x, y + h * 0.78); ctx.close_path(); ctx.fill()
+        ctx.set_source_rgb(1.0, 0.72, 0.1)
+        ctx.move_to(x, y + h * 0.17); ctx.line_to(x + w * 0.29, y + h / 2); ctx.line_to(x, y + h * 0.83); ctx.line_to(x, y + h * 0.78)
+        ctx.line_to(x + w * 0.24, y + h / 2); ctx.line_to(x, y + h * 0.22); ctx.close_path(); ctx.fill()
     elif code == "BR":
         ctx.set_source_rgb(0.0, 0.61, 0.23); ctx.rectangle(x, y, w, h); ctx.fill()
         ctx.move_to(x + w / 2, y + h * 0.08); ctx.line_to(x + w * 0.93, y + h / 2)

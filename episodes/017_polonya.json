@@ -14,8 +14,8 @@
   "instagram_caption": "Üstü kalsın demek kolay, peki yılda kaç lira eder? 🇵🇱🐔\n\n\"Grosz do grosza, a będzie kokosza\": \"Kuruş kuruşa eklenir, tavuk olur.\" Polonya atasözü; grosz kuruş, kokosz ise eski dilde tavuk demek. Günde 7 lira bozuk para, yılda 2555 lira eder!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #polonya #atasözü #bozukpara #paraatlası",
   "scenes": [
     {
-      "say": "Üstü kalsın deyince kimin cebine ne kadar gidiyor? Polonyalıların bozuk paraya tavuklu bir cevabı var!",
-      "text": "Üstü kalsın deyince kimin cebine ne kadar gidiyor? Polonyalıların bozuk paraya tavuklu bir cevabı var!",
+      "say": "Üstü kalsın deyince cebinden ne kadar gidiyor? Polonyalıların tavuklu bir cevabı var!",
+      "text": "Üstü kalsın deyince cebinden ne kadar gidiyor? Polonyalıların tavuklu bir cevabı var!",
       "voice_delay": 1.0,
       "narrator": {
         "x": 0.5,
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Piotr her gün üstü kalsın diyor. Bozuk para ağır geliyor. Günde ortalama 7 lira bırakıyor.",
-      "text": "Piotr her gün üstü kalsın diyor. Bozuk para ağır geliyor. Günde ortalama 7 lira bırakıyor.",
+      "say": "Piotr her gün üstü kalsın diyor. Günde ortalama 7 lira bırakıyor.",
+      "text": "Piotr her gün üstü kalsın diyor. Günde ortalama 7 lira bırakıyor.",
       "bg": "city",
       "actors": [
         {
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "say": "Ola ise üstünü alıp akşam kavanoza atıyor. O da günde yine 7 lira.",
-      "text": "Ola ise üstünü alıp akşam kavanoza atıyor. O da günde yine 7 lira.",
+      "say": "Ola üstünü alıp kavanoza atıyor. O da günde 7 lira.",
+      "text": "Ola üstünü alıp kavanoza atıyor. O da günde 7 lira.",
       "bg": "bank",
       "actors": [
         {
@@ -168,8 +168,8 @@
       ]
     },
     {
-      "say": "Bir yıl sonra Piotr'un 2555 lirası bahşiş olmuş. Ola'nın kavanozu ise 2555 lira dolu. Üstü kalsın demek kolay, üstüne üstlük pahalı!",
-      "text": "Bir yıl sonra Piotr'un 2555 lirası bahşiş olmuş. Ola'nın kavanozu ise 2555 lira dolu. Üstü kalsın demek kolay, üstüne üstlük pahalı!",
+      "say": "Bir yıl sonra Piotr'un 2555 lirası uçmuş. Ola'nın kavanozu 2555 lira dolu!",
+      "text": "Bir yıl sonra Piotr'un 2555 lirası uçmuş. Ola'nın kavanozu 2555 lira dolu!",
       "bg": "city",
       "actors": [
         {
@@ -202,8 +202,8 @@
       "emotion": "şaşkın"
     },
     {
-      "say": "Günün dersi: Bozuk para küçük görünür, ama sayarsan büyür!",
-      "text": "Günün dersi: Bozuk para küçük görünür, ama sayarsan büyür!",
+      "say": "Günün dersi: Bozuk para küçük görünür, sayarsan büyür!",
+      "text": "Günün dersi: Bozuk para küçük görünür, sayarsan büyür!",
       "bg": "vault",
       "emotion": "sakin",
       "actors": [
@@ -230,8 +230,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on yedincisi tamam. Yarın Yunanistan'a gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on yedincisi tamam. Yarın Yunanistan'a gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 17 tamam. Bunu her yerde üstü kalsın diyen arkadaşına gönder. Yarın Yunanistan!",
+      "text": "Ülke 17 tamam. Bunu her yerde üstü kalsın diyen arkadaşına gönder. Yarın Yunanistan!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,
@@ -282,5 +282,6 @@
         }
       ]
     }
-  ]
+  ],
+  "kanca_yazi": "Üstü kalsın demek yılda kaç lira?"
 }

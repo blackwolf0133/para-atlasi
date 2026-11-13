@@ -14,8 +14,8 @@
   "instagram_caption": "Üç al iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var! 🇸🇪🛒\n\n\"Lagom är bäst\": \"Tam kararında olan en iyisidir.\" Lagom, ne az ne çok demek ve çevirisi zor bir İsveç kelimesi. 100 liralık şampuandan üç tane alıp 200 lira ödemek, ihtiyacın bir tane ise 100 lira fazla harcamaktır!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #isveç #atasözü #indirim #paraatlası",
   "scenes": [
     {
-      "say": "Üç al, iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var. Hem de çevirisi bile zor bir kelime!",
-      "text": "Üç al, iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var. Hem de çevirisi bile zor bir kelime!",
+      "say": "Üç al iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var!",
+      "text": "Üç al iki öde afişini gören İsveçlilerin tek kelimelik bir cevabı var!",
       "voice_delay": 1.0,
       "narrator": {
         "x": 0.5,
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Lena üç al iki öde afişini görünce üç şampuan aldı. Tanesi 100 lira, toplam 200 lira ödedi ve 100 lira kazandım dedi.",
-      "text": "Lena üç al iki öde afişini görünce üç şampuan aldı. Tanesi 100 lira, toplam 200 lira ödedi ve 100 lira kazandım dedi.",
+      "say": "Lena üç şampuan aldı, 200 lira ödedi, 100 lira kazandım dedi.",
+      "text": "Lena üç şampuan aldı, 200 lira ödedi, 100 lira kazandım dedi.",
       "bg": "city",
       "actors": [
         {
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "say": "Erik'in ise tek şampuana ihtiyacı vardı. Bir tane aldı, 100 lira ödedi ve yoluna devam etti.",
-      "text": "Erik'in ise tek şampuana ihtiyacı vardı. Bir tane aldı, 100 lira ödedi ve yoluna devam etti.",
+      "say": "Erik'e tek şampuan lazımdı. Bir tane aldı, 100 lira ödedi.",
+      "text": "Erik'e tek şampuan lazımdı. Bir tane aldı, 100 lira ödedi.",
       "bg": "bank",
       "actors": [
         {
@@ -171,8 +171,8 @@
       ]
     },
     {
-      "say": "Lena 100 lira kazandığını sandı ama cebinden 100 lira fazla çıktı. Üç şampuan var, kafa ise tek!",
-      "text": "Lena 100 lira kazandığını sandı ama cebinden 100 lira fazla çıktı. Üç şampuan var, kafa ise tek!",
+      "say": "Lena 100 lira kazandığını sandı ama cebinden 100 lira fazla çıktı!",
+      "text": "Lena 100 lira kazandığını sandı ama cebinden 100 lira fazla çıktı!",
       "bg": "city",
       "actors": [
         {
@@ -233,8 +233,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on altıncısı tamam. Yarın Polonya'ya gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on altıncısı tamam. Yarın Polonya'ya gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 16 tamam. Bunu her afişe koşan arkadaşına gönder. Yarın Polonya!",
+      "text": "Ülke 16 tamam. Bunu her afişe koşan arkadaşına gönder. Yarın Polonya!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,
@@ -285,5 +285,6 @@
         }
       ]
     }
-  ]
+  ],
+  "kanca_yazi": "Üç al iki öde gerçekten kazanç mı?"
 }

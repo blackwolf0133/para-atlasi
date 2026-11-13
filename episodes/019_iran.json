@@ -1,0 +1,257 @@
+{
+  "id": "019",
+  "series": "PARA ATLASI",
+  "title": "Hesabı Kuruşuna, İkramı Eşek Yüküne",
+  "country": {
+    "name": "İran",
+    "code": "IR"
+  },
+  "kanca_yazi": "Hesabı kuruşuna, cömertliği eşek yüküyle!",
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "İranlılar hesabı kuruşuna yapar, ikramı eşek yüküyle! 🇮🇷🫖\n\n\"Hesâb be dinâr, bakhshesh be kharvâr\": \"Hesap kuruşu kuruşuna, bağış eşek yükü kadar.\" Farsça atasözü; kharvar eski bir ağırlık ölçüsü, kabaca bir eşek yükü. Ayda 600 lira artıranın ikramı da büyük olur!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #iran #atasözü #bütçe #paraatlası",
+  "scenes": [
+    {
+      "say": "İranlılar hesabı kuruşuna yapar ama ikramı eşek yüküyle yapar! Nasıl oluyor bu?",
+      "text": "İranlılar hesabı kuruşuna yapar ama ikramı eşek yüküyle yapar! Nasıl oluyor bu?",
+      "voice_delay": 0.4,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "İRAN!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "EŞEK YÜKÜ?!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Hesab be dinar, bahşeş be harvar. Yani: Hesap kuruşu kuruşuna, bağış eşek yükü kadar. Harvar, eşek yükü demek.",
+      "text": "Hesab be dinar, bahşeş be harvar. Yani: Hesap kuruşu kuruşuna, bağış eşek yükü kadar. Harvar, eşek yükü demek.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Hesâb be dinâr, bakhshesh be kharvâr",
+          "roman": "",
+          "tr": "Hesap kuruşu kuruşuna, bağış eşek yükü kadar.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Ali hesap tutmuyor. Ay sonu cüzdanı boş, arkadaşına ısmarlayacak bir çayı bile yok.",
+      "text": "Ali hesap tutmuyor. Ay sonu cüzdanı boş, arkadaşına ısmarlayacak bir çayı bile yok.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "a",
+          "x": 0.25,
+          "pose": "shrug",
+          "face": "sad",
+          "scale": 1.15
+        },
+        {
+          "id": "r",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "ALİ",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "CÜZDAN: 0 TL",
+          "x": 0.3,
+          "y": 0.4,
+          "size": 76,
+          "f": 0.5,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Reza her harcamayı yazıyor. Ayda 600 lira artıyor ve bunu sevdiklerine ikram ediyor.",
+      "text": "Reza her harcamayı yazıyor. Ayda 600 lira artıyor ve bunu sevdiklerine ikram ediyor.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "a",
+          "x": 0.25,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15
+        },
+        {
+          "id": "r",
+          "x": 0.74,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "REZA",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "AYDA 600 TL",
+          "x": 0.65,
+          "y": 0.4,
+          "size": 76,
+          "f": 0.5,
+          "rot": 5
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: Cömert olmak için önce hesabı bilmek gerekir!",
+      "text": "Günün dersi: Cömert olmak için önce hesabı bilmek gerekir!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "wallet",
+          "x": 0.74,
+          "y": 0.88,
+          "scale": 0.9
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Ülke 19 tamam. Bunu hep ısmarlayıp ay sonu batan arkadaşına gönder. Yarın Meksika'ya!",
+      "text": "Ülke 19 tamam. Bunu hep ısmarlayıp ay sonu batan arkadaşına gönder. Yarın Meksika'ya!",
+      "voice_delay": 0.3,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "İran",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 19 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: MEKSİKA!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

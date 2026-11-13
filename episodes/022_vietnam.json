@@ -1,0 +1,257 @@
+{
+  "id": "022",
+  "series": "PARA ATLASI",
+  "title": "Önce Para, Sonra Çorba",
+  "country": {
+    "name": "Vietnam",
+    "code": "VN"
+  },
+  "kanca_yazi": "Önce para, sonra çorba!",
+  "voice_fx": {
+    "pitch": 1.0,
+    "noise": 0.2,
+    "noise_w": 0.3
+  },
+  "instagram_caption": "Vietnamlılar veresiyeye çorbayla cevap verir! 🇻🇳🍜\n\n\"Tiền trao cháo múc\": \"Para uzanınca çorba kepçelenir.\" Vietnamca bir deyim: parayı verir, malı hemen alırsın. Kartla sonra öderim diyen kişi ay sonunda 2400 lira ekstreyle karşılaşabilir!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #vietnam #atasözü #kredikartı #paraatlası",
+  "scenes": [
+    {
+      "say": "Vietnamlılar veresiyeye çorbayla cevap verir! Önce para, sonra çorba.",
+      "text": "Vietnamlılar veresiyeye çorbayla cevap verir! Önce para, sonra çorba.",
+      "voice_delay": 0.4,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.6,
+        "pose": "wave",
+        "face": "happy",
+        "beats": [
+          {
+            "t": 0.45,
+            "pose": "point",
+            "face": "wink"
+          },
+          {
+            "f": 0.0,
+            "pose": "hips",
+            "face": "happy"
+          },
+          {
+            "f": 0.35,
+            "pose": "think",
+            "face": "think"
+          },
+          {
+            "f": 0.65,
+            "pose": "open",
+            "face": "surprised"
+          }
+        ]
+      },
+      "emotion": "şaşkın",
+      "props": [
+        {
+          "type": "pop",
+          "text": "VİETNAM!",
+          "x": 0.27,
+          "y": 0.15,
+          "size": 120,
+          "f": 0.0,
+          "rot": -10,
+          "until_f": 0.6
+        },
+        {
+          "type": "pop",
+          "text": "ÖNCE PARA!",
+          "x": 0.5,
+          "y": 0.13,
+          "size": 96,
+          "f": 0.65,
+          "rot": 5
+        }
+      ]
+    },
+    {
+      "say": "Tiyen çao çaw muk. Yani: Para uzanır, çorba kepçelenir. Vietnam'da çok bilinen bir deyim.",
+      "text": "Tiyen çao çaw muk. Yani: Para uzanır, çorba kepçelenir. Vietnam'da çok bilinen bir deyim.",
+      "bg": "vault",
+      "actors": [],
+      "props": [
+        {
+          "type": "quote",
+          "original": "Tien trao chao muc",
+          "roman": "",
+          "tr": "Para uzanır, çorba kepçelenir.",
+          "x": 0.5,
+          "y": 0.5,
+          "delay": 0.2
+        }
+      ]
+    },
+    {
+      "say": "Linh market parasını kartla ödüyor, ay sonu bakarım diyor. Ay sonunda ekstrede 2400 lira çıkıyor.",
+      "text": "Linh market parasını kartla ödüyor, ay sonu bakarım diyor. Ay sonunda ekstrede 2400 lira çıkıyor.",
+      "bg": "city",
+      "actors": [
+        {
+          "id": "l",
+          "x": 0.25,
+          "pose": "shock",
+          "face": "shock",
+          "scale": 1.15
+        },
+        {
+          "id": "m",
+          "x": 0.74,
+          "pose": "stand",
+          "face": "neutral",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "LİNH",
+          "x": 0.25,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "EKSTRE: 2400 TL",
+          "x": 0.35,
+          "y": 0.4,
+          "size": 66,
+          "f": 0.5,
+          "rot": -5
+        }
+      ]
+    },
+    {
+      "say": "Minh cüzdanına 1500 lira koyuyor. Para uzanır, çorba gelir. Bitince alışveriş de biter.",
+      "text": "Minh cüzdanına 1500 lira koyuyor. Para uzanır, çorba gelir. Bitince alışveriş de biter.",
+      "bg": "bank",
+      "actors": [
+        {
+          "id": "l",
+          "x": 0.25,
+          "pose": "sad",
+          "face": "sad",
+          "scale": 1.15
+        },
+        {
+          "id": "m",
+          "x": 0.74,
+          "pose": "cheer",
+          "face": "happy",
+          "scale": 1.15,
+          "flip": true
+        }
+      ],
+      "props": [
+        {
+          "type": "pop",
+          "text": "MİNH",
+          "x": 0.74,
+          "y": 0.27,
+          "size": 56,
+          "f": 0.0,
+          "rot": 0
+        },
+        {
+          "type": "pop",
+          "text": "CÜZDAN: 1500 TL",
+          "x": 0.65,
+          "y": 0.4,
+          "size": 62,
+          "f": 0.5,
+          "rot": 5
+        }
+      ],
+      "emotion": "şaşkın"
+    },
+    {
+      "say": "Günün dersi: Parayı elinle uzatınca harcamayı hissedersin!",
+      "text": "Günün dersi: Parayı elinle uzatınca harcamayı hissedersin!",
+      "bg": "vault",
+      "emotion": "sakin",
+      "actors": [
+        {
+          "id": "b",
+          "x": 0.32,
+          "pose": "point",
+          "face": "confident",
+          "scale": 1.3
+        }
+      ],
+      "props": [
+        {
+          "type": "wallet",
+          "x": 0.74,
+          "y": 0.88,
+          "scale": 0.9
+        },
+        {
+          "type": "sfx",
+          "name": "rimshot",
+          "f": 0.85
+        }
+      ]
+    },
+    {
+      "say": "Ülke 22 tamam. Bunu sürekli sonra öderim diyen arkadaşına gönder. Yarın Tayland'a!",
+      "text": "Ülke 22 tamam. Bunu sürekli sonra öderim diyen arkadaşına gönder. Yarın Tayland'a!",
+      "voice_delay": 0.3,
+      "narrator": {
+        "x": 0.5,
+        "y": 0.97,
+        "scale": 1.5,
+        "pose": "open",
+        "face": "happy",
+        "beats": [
+          {
+            "f": 0.4,
+            "pose": "point",
+            "face": "happy"
+          },
+          {
+            "f": 0.75,
+            "pose": "wave",
+            "face": "wink"
+          }
+        ]
+      },
+      "props": [
+        {
+          "type": "stamp",
+          "text": "Vietnam",
+          "x": 0.8,
+          "y": 0.17,
+          "f": 0.12,
+          "rot": -14,
+          "scale": 0.8
+        },
+        {
+          "type": "pop",
+          "text": "ÜLKE 22 / 30",
+          "x": 0.74,
+          "y": 0.7,
+          "size": 70,
+          "f": 0.3,
+          "rot": 5
+        },
+        {
+          "type": "pop",
+          "text": "YARIN: TAYLAND!",
+          "x": 0.28,
+          "y": 0.15,
+          "size": 84,
+          "f": 0.45,
+          "rot": -6
+        }
+      ]
+    }
+  ]
+}

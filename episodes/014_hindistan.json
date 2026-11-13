@@ -14,8 +14,8 @@
   "instagram_caption": "Aylık sadece 500 lira diyen taksit, altı tane olunca ne olur? 🇮🇳🧵\n\n\"Jitni chadar, utne paon phailao\": \"Çarşafın kadar ayağını uzat.\" Hintçede ve Urducada bilinen bir atasözü; bizdeki \"yorganına göre ayağını uzat\" sözünün kuzeni. 6 taksit x 500 lira = ayda 3000 lira!\n\nHer gün bir ülkenin para bilgeliği için takip et 🌍\n\n#para #hindistan #atasözü #taksit #paraatlası",
   "scenes": [
     {
-      "say": "Aylık sadece 500 lira diyen taksit, altı tane olunca ne olur? Hintlilerin buna çarşaflı bir cevabı var!",
-      "text": "Aylık sadece 500 lira diyen taksit, altı tane olunca ne olur? Hintlilerin buna çarşaflı bir cevabı var!",
+      "say": "Aylık sadece 500 lira diyen taksit, altı tane olunca ne olur? Hintlilerin çarşaflı bir cevabı var!",
+      "text": "Aylık sadece 500 lira diyen taksit, altı tane olunca ne olur? Hintlilerin çarşaflı bir cevabı var!",
       "voice_delay": 1.0,
       "narrator": {
         "x": 0.5,
@@ -87,8 +87,8 @@
       ]
     },
     {
-      "say": "Ece her mağazada aylık sadece 500 lira dedi. Tam altı taksit aldı. Altı tane 500 lira, her ay 3000 lira eder.",
-      "text": "Ece her mağazada aylık sadece 500 lira dedi. Tam altı taksit aldı. Altı tane 500 lira, her ay 3000 lira eder.",
+      "say": "Ece altı taksit aldı. Aylık 500 lira, altı tane 3000 lira eder.",
+      "text": "Ece altı taksit aldı. Aylık 500 lira, altı tane 3000 lira eder.",
       "bg": "city",
       "actors": [
         {
@@ -129,8 +129,8 @@
       ]
     },
     {
-      "say": "Deniz önce çarşafına baktı. Aylık en fazla 1000 lirayı taksite ayırabilirim dedi ve iki taksitte durdu.",
-      "text": "Deniz önce çarşafına baktı. Aylık en fazla 1000 lirayı taksite ayırabilirim dedi ve iki taksitte durdu.",
+      "say": "Deniz çarşafına baktı. En fazla 1000 lira dedi, iki taksitte durdu.",
+      "text": "Deniz çarşafına baktı. En fazla 1000 lira dedi, iki taksitte durdu.",
       "bg": "bank",
       "actors": [
         {
@@ -171,8 +171,8 @@
       ]
     },
     {
-      "say": "Deniz'in cebinde her ay 2000 lira daha fazla kalıyor. Ece'nin çarşafı kısa kaldı, ayakları dışarıda üşüyor!",
-      "text": "Deniz'in cebinde her ay 2000 lira daha fazla kalıyor. Ece'nin çarşafı kısa kaldı, ayakları dışarıda üşüyor!",
+      "say": "Deniz'in cebinde her ay 2000 lira fazla kalıyor. Ece'nin çarşafı kısa kaldı!",
+      "text": "Deniz'in cebinde her ay 2000 lira fazla kalıyor. Ece'nin çarşafı kısa kaldı!",
       "bg": "city",
       "actors": [
         {
@@ -205,8 +205,8 @@
       "emotion": "şaşkın"
     },
     {
-      "say": "Günün dersi: Taksit küçük görünür ama toplamı büyük çıkar. Önce çarşafına bak!",
-      "text": "Günün dersi: Taksit küçük görünür ama toplamı büyük çıkar. Önce çarşafına bak!",
+      "say": "Günün dersi: Taksit küçük görünür, toplamı büyük çıkar!",
+      "text": "Günün dersi: Taksit küçük görünür, toplamı büyük çıkar!",
       "bg": "vault",
       "emotion": "sakin",
       "actors": [
@@ -233,8 +233,8 @@
       ]
     },
     {
-      "say": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on dördüncüsü tamam. Yarın Hollanda'ya gidiyoruz. Takip et, kaçırma!",
-      "text": "Bir sözü daha pasaportumuza bastık! Otuz ülkeden on dördüncüsü tamam. Yarın Hollanda'ya gidiyoruz. Takip et, kaçırma!",
+      "say": "Ülke 14 tamam. Bunu her ay taksitle boğulan arkadaşına gönder. Yarın Hollanda!",
+      "text": "Ülke 14 tamam. Bunu her ay taksitle boğulan arkadaşına gönder. Yarın Hollanda!",
       "voice_delay": 0.5,
       "narrator": {
         "x": 0.5,
@@ -285,5 +285,6 @@
         }
       ]
     }
-  ]
+  ],
+  "kanca_yazi": "Aylık sadece 500 lira, altı taneyse?"
 }
