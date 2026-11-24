@@ -96,7 +96,7 @@ def _wait_container(host, container_id, token, timeout=900):
 
 
 HESAPLAR = {"para_atlasi", "kimhakli.tr", "kim.hakli.tr", "kimhakli"} | {x.strip().lstrip("@").lower() for x in os.environ.get("IG_USERNAME", "").split(",") if x.strip()}
-HESAP = "para_atlasi"   # 24 Kasım: kanal KİM HAKLI? oluyor; yeni ad HESAPLAR'a ya da IG_USERNAME'e eklenir
+HESAP = "kim.hakli.tr"   # 24 Kasım: kanal KİM HAKLI? oluyor; yeni ad HESAPLAR'a ya da IG_USERNAME'e eklenir
 VARSAYILAN_KIMLIK = os.environ.get("IG_KIMLIK", "")   # IG_USER_ID sırrı kullanılır (@para_atlasi)
 
 
