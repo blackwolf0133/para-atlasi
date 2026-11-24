@@ -1,0 +1,11 @@
+name: Kimlik
+on: workflow_dispatch
+jobs:
+  d:
+    runs-on: ubuntu-latest
+    steps:
+      - env: {T: "${{ secrets.IG_ACCESS_TOKEN }}", U: "${{ secrets.IG_USER_ID }}"}
+        run: |
+          echo "tok ${T:0:3} uid_len ${#U}"
+          curl -s "https://graph.facebook.com/v26.0/$U?fields=id,username,followers_count,media_count&access_token=$T"; echo
+          curl -s "https://graph.facebook.com/v26.0/me/accounts?fields=name,instagram_business_account{id,username}&access_token=$T" | head -c 1500; echo
