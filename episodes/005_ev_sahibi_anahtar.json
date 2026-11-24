@@ -1,0 +1,86 @@
+{
+ "id": "005",
+ "slug": "ev_sahibi_anahtar",
+ "title": "Ev sahibi yedek anahtarla girdi",
+ "dizi_adi": "Yedek anahtar",
+ "seed": 24005,
+ "kanca_yazi": "Eve geldin, ev sahibi içeride",
+ "taraflar": {
+  "A": "Kiracı",
+  "B": "Ev sahibi"
+ },
+ "characters": {
+  "KIRACI": "a young Turkish woman with long straight hair in a beige trench coat",
+  "EVSAHIBI": "a grey-haired Turkish man in a brown cardigan holding a key ring"
+ },
+ "secim": {
+  "A": "Kiracı: İzinsiz giremezsin",
+  "B": "Ev sahibi: Ev benim, kontrol ederim"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Kiracı haklı: izinsiz girmek suç",
+  "kaynak": "Türk Ceza Kanunu m.116"
+ },
+ "gonder": "Kirada oturan birine gönder",
+ "scenes": [
+  {
+   "text": "İşten eve döndün. Kapı açık, ev sahibi salonda.",
+   "prompt": "{KIRACI} standing frozen at her apartment doorway, seeing {EVSAHIBI} inside the living room looking around",
+   "yer": "KİRALIK DAİRE"
+  },
+  {
+   "text": "Kiracı şaşırdı: Siz nasıl girdiniz?",
+   "prompt": "{KIRACI} with a shocked angry face, keys still in her hand",
+   "kim": "A"
+  },
+  {
+   "text": "Ev sahibi anahtarı salladı: Ev benim, kontrol ediyorum.",
+   "prompt": "{EVSAHIBI} jingling a key ring with a confident smile in the living room",
+   "kim": "B"
+  },
+  {
+   "text": "Mutfağa, odalara, her yere bakmış.",
+   "prompt": "{EVSAHIBI} peeking into kitchen cabinets, comic sneaky pose"
+  },
+  {
+   "text": "Sence kim haklı? Kiracı mı, ev sahibi mi? Üç saniye düşün.",
+   "prompt": "tense face-off between {KIRACI} and {EVSAHIBI} in a living room",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: kiracı haklı.",
+   "prompt": "{KIRACI} standing confidently with arms crossed, sparkles",
+   "kim": "A"
+  },
+  {
+   "text": "Ev kiraya verildiği anda, oturma hakkı ve konut dokunulmazlığı kiracıya geçer.",
+   "prompt": "a cozy apartment door glowing with a protective shield, warm hallway light"
+  },
+  {
+   "text": "Rızası olmadan girmek, Türk Ceza Kanunu'nun yüz on altıncı maddesine göre suç. Cezası altı aydan iki yıla kadar hapis.",
+   "prompt": "a stack of law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "Ev sahibi evi göstermek ya da tamir için girecekse önceden haber verip izin almalı.",
+   "prompt": "{EVSAHIBI} politely calling on the phone in front of an apartment building"
+  },
+  {
+   "text": "Bunu kirada oturan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone on a sofa, warm light"
+  }
+ ],
+ "caption": "Eve geldin, ev sahibi yedek anahtarla içeri girmiş. \"Ev benim\" diyor. 🔑",
+ "hashtags": [
+  "#kimhaklı",
+  "#kiracı",
+  "#evsahibi",
+  "#hukuk",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://hukukcularevi.com/ev-sahibi-izinsiz-habersiz-eve-giriyor-ne-yapabilirim/",
+  "https://www.gazetevatan.com/sehirler/bursa/kiraya-verdigi-eve-yedek-anahtarla-habersiz-giren-ev-sahibine-sok-ceza-sadece-ayip-saniliyordu-ama-tam-2-yil-hapsi-var-2387944"
+ ]
+}

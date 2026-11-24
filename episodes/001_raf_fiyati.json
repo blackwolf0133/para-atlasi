@@ -1,0 +1,86 @@
+{
+ "id": "001",
+ "slug": "raf_fiyati",
+ "title": "Rafta 89, kasada 109",
+ "dizi_adi": "Raf fiyatı",
+ "seed": 24001,
+ "kanca_yazi": "Rafta 89 TL, kasada 109 TL",
+ "taraflar": {
+  "A": "Müşteri",
+  "B": "Kasiyer"
+ },
+ "characters": {
+  "MUSTERI": "a young Turkish woman with curly dark hair in a mustard yellow coat",
+  "KASIYER": "a bored young Turkish male cashier in a red vest"
+ },
+ "secim": {
+  "A": "Müşteri: Raftaki fiyatı öderim",
+  "B": "Kasiyer: Kasada çıkan geçerli"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Müşteri haklı: düşük olan fiyat geçerli",
+  "kaynak": "Fiyat Etiketi Yönetmeliği · Ticaret Bakanlığı"
+ },
+ "gonder": "Bunu market alışverişi yapan birine gönder",
+ "scenes": [
+  {
+   "text": "Rafta seksen dokuz lira yazıyordu. Kasada yüz dokuz çıktı.",
+   "prompt": "busy supermarket checkout, {MUSTERI} staring shocked at the glowing cashier screen holding a coffee package, {KASIYER} behind the register, dramatic close-up",
+   "yer": "MARKET KASASI"
+  },
+  {
+   "text": "Müşteri itiraz etti: Ben raftaki fiyatı öderim.",
+   "prompt": "{MUSTERI} pointing back toward the supermarket shelves with an annoyed determined face, low angle",
+   "kim": "A"
+  },
+  {
+   "text": "Kasiyer omuz silkti: Sistem bunu gösteriyor, etiket eski kalmış.",
+   "prompt": "{KASIYER} shrugging with both palms up behind the register, indifferent expression",
+   "kim": "B"
+  },
+  {
+   "text": "Arkadaki sıra uzuyor. Herkes onlara bakıyor.",
+   "prompt": "long impatient queue of shoppers with shopping baskets at a supermarket checkout, people sighing and staring, wide shot"
+  },
+  {
+   "text": "Sence kim haklı? Müşteri mi, kasiyer mi? Üç saniye düşün.",
+   "prompt": "dramatic face-off between {MUSTERI} and {KASIYER} across the checkout counter, tense lighting",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: müşteri haklı.",
+   "prompt": "{MUSTERI} smiling triumphantly with confetti-like sparkles, supermarket background",
+   "kim": "A"
+  },
+  {
+   "text": "Raftaki fiyat ile kasadaki fiyat farklıysa, düşük olan fiyat geçerlidir.",
+   "prompt": "close-up of a supermarket shelf with a blank glowing paper tag next to coffee packages, magical sparkles, no writing"
+  },
+  {
+   "text": "Bu, Fiyat Etiketi Yönetmeliği'nde yazıyor. Ticaret Bakanlığı da defalarca hatırlattı.",
+   "prompt": "a stack of official documents with a red ribbon and a golden seal on a wooden desk, warm light, no readable text"
+  },
+  {
+   "text": "Kabul etmezlerse etiketin fotoğrafını çek, fişi sakla, Tüketici Hakem Heyeti'ne başvur.",
+   "prompt": "{MUSTERI} photographing a supermarket shelf with her smartphone, receipt in her other hand, over the shoulder view"
+  },
+  {
+   "text": "Bunu market alışverişi yapan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone in a cozy Turkish kitchen, warm light"
+  }
+ ],
+ "caption": "Rafta 89 TL yazıyor, kasada 109 TL çıkıyor. Kasiyer \"sistem böyle\" diyor. 🛒",
+ "hashtags": [
+  "#kimhaklı",
+  "#tüketicihakları",
+  "#market",
+  "#bilgi",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.ekonomist.com.tr/gundem/etiket-ile-kasa-fiyati-farkliysa-ne-olur-masa-ve-kuver-ucreti-alinabilir-mi-ticaret-bakanligi-acikladi-77224",
+  "https://www.cnnturk.com/video/turkiye/raftaki-fiyati-odeyin-musteri-itiraz-etti-market-kabul-etmedi-2378247"
+ ]
+}

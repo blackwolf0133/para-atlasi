@@ -1,0 +1,86 @@
+{
+ "id": "003",
+ "slug": "otopark",
+ "title": "Otoparkta çizilen araba",
+ "dizi_adi": "Otopark",
+ "seed": 24003,
+ "kanca_yazi": "Aracın otoparkta çizildi. Tabela: Sorumlu değiliz",
+ "taraflar": {
+  "A": "Araç sahibi",
+  "B": "Otoparkçı"
+ },
+ "characters": {
+  "SAHIP": "a middle-aged Turkish man with a mustache in a navy jacket",
+  "GOREVLI": "a parking attendant in a yellow reflective vest and cap"
+ },
+ "secim": {
+  "A": "Araç sahibi: Zararı otopark öder",
+  "B": "Otoparkçı: Tabelada yazıyor, sorumlu değiliz"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Araç sahibi haklı: ücretli otopark sorumlu",
+  "kaynak": "Türk Borçlar Kanunu m.579"
+ },
+ "gonder": "Arabası olan birine gönder",
+ "scenes": [
+  {
+   "text": "Arabanı ücretli otoparka bıraktın. Döndüğünde kapı boydan boya çizilmiş.",
+   "prompt": "{SAHIP} staring in horror at a long scratch on the door of his red car in a parking lot, dramatic close-up",
+   "yer": "ÜCRETLİ OTOPARK"
+  },
+  {
+   "text": "Araç sahibi görevliye gitti: Bunu siz ödeyeceksiniz.",
+   "prompt": "{SAHIP} angrily pointing at his scratched car while talking to {GOREVLI}",
+   "kim": "A"
+  },
+  {
+   "text": "Görevli duvardaki tabelayı gösterdi: Araçtaki zararlardan sorumlu değiliz.",
+   "prompt": "{GOREVLI} smugly pointing at a big blank sign board on the wall of the parking lot booth",
+   "kim": "B"
+  },
+  {
+   "text": "Fişi ödemişsin, anahtar bile onlarda.",
+   "prompt": "close-up of a hand holding a small paper parking ticket and car keys hanging on a hook in a booth"
+  },
+  {
+   "text": "Sence kim haklı? Araç sahibi mi, otoparkçı mı? Üç saniye düşün.",
+   "prompt": "tense face-off between {SAHIP} and {GOREVLI} in front of a parking booth barrier",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: araç sahibi haklı.",
+   "prompt": "{SAHIP} smiling with relief next to his red car, sparkles",
+   "kim": "A"
+  },
+  {
+   "text": "Ücretli otoparka bırakılan araç zarar görürse, işleten sorumludur.",
+   "prompt": "an overhead view of a tidy parking lot with a glowing protective dome over the cars"
+  },
+  {
+   "text": "Türk Borçlar Kanunu madde beş yüz yetmiş dokuz böyle diyor. O tabela bu sorumluluğu ortadan kaldırmaz.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Hasarı çıkmadan göster, fotoğraf çek, fişi sakla.",
+   "prompt": "{SAHIP} photographing the scratch on his car with a smartphone before leaving the parking lot"
+  },
+  {
+   "text": "Bunu arabası olan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone next to a car, warm light"
+  }
+ ],
+ "caption": "Ücretli otoparkta araban çizildi. Görevli tabelayı gösteriyor: \"Sorumlu değiliz.\" 🚗",
+ "hashtags": [
+  "#kimhaklı",
+  "#otopark",
+  "#araba",
+  "#hukuk",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://hukukcularevi.com/otoparkta-arac-hasari-tazminat-dava-dilekcesi-ornegi-tbk-579/",
+  "https://www.hukukihaber.net/otoparkta-hasar-valede-kaza"
+ ]
+}

@@ -95,29 +95,56 @@ def _wait_container(host, container_id, token, timeout=900):
     raise PublishError(f"Video işleme zaman aşımı. Son durum: {last}")
 
 
+HESAPLAR = {"para_atlasi", "kimhakli.tr", "kim.hakli.tr", "kimhakli"} | {x.strip().lstrip("@").lower() for x in os.environ.get("IG_USERNAME", "").split(",") if x.strip()}
+HESAP = "para_atlasi"   # 24 Kasım: kanal KİM HAKLI? oluyor; yeni ad HESAPLAR'a ya da IG_USERNAME'e eklenir
+VARSAYILAN_KIMLIK = os.environ.get("IG_KIMLIK", "")   # IG_USER_ID sırrı kullanılır (@para_atlasi)
+
+
+def _kullanici_adi(uid, token, mode):
+    r = _request("GET", f"https://{_host(mode)}/{API_VERSION}/{uid}", {"fields": "username", "access_token": token})
+    return (r.get("username") or "").lower()
+
+
 def resolve_user_id(token, mode):
-    """IG_USER_ID verilmediyse tokendan bul (Instagram ile giriş)."""
-    uid = os.environ.get("IG_USER_ID", "").strip()
+    """Paylaşılacak Instagram hesabının kimliği. Aynı anahtar başka kanallara da erişebildiği için
+    hesap HER ZAMAN kullanıcı adıyla (IG_USERNAME, @nekazanir.tr / @kacsaniyenvar) doğrulanır; eşleşmezse paylaşım yapılmaz."""
+    uid = os.environ.get("IG_USER_ID", "").strip() or VARSAYILAN_KIMLIK
     if uid:
+        ad = _kullanici_adi(uid, token, mode)
+        if ad not in HESAPLAR:
+            raise PublishError(f"IG_USER_ID başka bir hesaba ait (@{ad}), {sorted(HESAPLAR)} değil. Paylaşım durduruldu.")
         return uid
     if mode != "instagram":
-        # Facebook/Unified girişi: Instagram hesabını anahtarın erişebildiği varlıklardan bul
-        tries = [("me", {"fields": "instagram_business_account"}),
-                 ("me/accounts", {"fields": "instagram_business_account"})]
-        for path, prm in tries:
-            try:
-                r = _request("GET", f"https://graph.facebook.com/{API_VERSION}/{path}", dict(prm, access_token=token))
-            except PublishError:
-                continue
-            if r.get("instagram_business_account"):
-                return r["instagram_business_account"]["id"]
-            for item in r.get("data", []):
-                if item.get("instagram_business_account"):
-                    return item["instagram_business_account"]["id"]
-        raise PublishError("Instagram hesap kimliği bulunamadı. IG_USER_ID secret'ını ekleyin "
-                           "(Meta panelinde hesabın yanında yazan 1784... ile başlayan numara).")
+        g = f"https://graph.facebook.com/{API_VERSION}"
+        adaylar = []
+        try:
+            r = _request("GET", f"{g}/me/accounts", {"fields": "instagram_business_account{id,username}",
+                                                      "limit": 100, "access_token": token})
+            adaylar += [it["instagram_business_account"] for it in r.get("data", []) if it.get("instagram_business_account")]
+        except PublishError:
+            pass
+        try:
+            biz = _request("GET", f"{g}/me/businesses", {"fields": "id", "access_token": token}).get("data", [])
+        except PublishError:
+            biz = []
+        for b in biz:
+            for kenar in ("owned_instagram_accounts", "instagram_business_accounts", "client_instagram_accounts"):
+                try:
+                    r = _request("GET", f"{g}/{b['id']}/{kenar}", {"fields": "id,username", "limit": 100,
+                                                                  "access_token": token})
+                    adaylar += r.get("data", [])
+                except PublishError:
+                    pass
+        for h in adaylar:
+            if (h.get("username") or "").lower() in HESAPLAR:
+                return h["id"]
+        bulunan = ", ".join(sorted({"@" + (h.get("username") or "?") for h in adaylar})) or "hiçbiri"
+        raise PublishError(f"@{HESAP} hesabı bu anahtarla bulunamadı (erişilen hesaplar: {bulunan}). "
+                           "Hesabı sistem kullanıcısına atayın ya da IG_USER_ID secret'ını ekleyin.")
     me = _request("GET", f"https://graph.instagram.com/{API_VERSION}/me",
                   {"fields": "user_id,username", "access_token": token})
+    if (me.get("username") or "").lower() not in HESAPLAR:
+        raise PublishError(f"Anahtar @{me.get('username')} hesabına ait, @{HESAP} değil. Paylaşım durduruldu.")
     return str(me.get("user_id") or me["id"])
 
 
@@ -144,7 +171,7 @@ def _yayinlandi_mi(base, user_id, cid, token, deneme=6):
 
 
 def publish_reel(video_path=None, video_url=None, caption="", mode=None,
-                 user_id=None, token=None, share_to_feed=True):
+                 user_id=None, token=None, share_to_feed=True, klasik=False):
     """Reel paylaşır, {"media_id", "permalink"} döndürür."""
     token = token or os.environ["IG_ACCESS_TOKEN"]
     mode = mode or detect_mode(token)
@@ -156,7 +183,13 @@ def publish_reel(video_path=None, video_url=None, caption="", mode=None,
               "share_to_feed": "true" if share_to_feed else "false", "access_token": token}
 
     upload_error = None
-    if mode == "facebook":
+    if klasik and video_url:
+        # 15 Kasım testi: @kayip.vakalar'da büyük dosyalar rupload ile hiç işlenmedi (2207082), ama
+        # klasik yol (Meta videoyu adresten kendisi indiriyor) aynı videoyu 60 sn'de işledi.
+        params["video_url"] = video_url
+        c = _request("POST", f"{base}/{user_id}/media", params)
+        cid = c["id"]
+    elif mode == "facebook":
         # 1) Yükleme oturumu aç
         params["upload_type"] = "resumable"
         c = _request("POST", f"{base}/{user_id}/media", params)

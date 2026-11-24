@@ -1,0 +1,107 @@
+{
+ "id": "002",
+ "slug": "kargo_hasar",
+ "title": "Kargo kırık geldi",
+ "dizi_adi": "Kırık kargo",
+ "seed": 24002,
+ "kanca_yazi": "Sipariş kırık geldi. Satıcı: Kargonun suçu",
+ "taraflar": {
+  "A": "Müşteri",
+  "B": "Satıcı"
+ },
+ "characters": {
+  "MUSTERI": "a young Turkish man with a short beard in a grey hoodie"
+ },
+ "secim": {
+  "A": "Müşteri: Hasardan satıcı sorumlu",
+  "B": "Satıcı: Kargo firmasıyla görüş"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Müşteri haklı: teslimata kadar satıcı sorumlu",
+  "kaynak": "Mesafeli Sözleşmeler Yönetmeliği m.17"
+ },
+ "gonder": "İnternetten alışveriş yapan birine gönder",
+ "scenes": [
+  {
+   "text": "İnternetten sipariş verdin. Kutu geldi, içinden kırık bir kupa çıktı.",
+   "prompt": "{MUSTERI} sitting on a living room floor opening a crushed cardboard box, finding a broken ceramic mug inside, shocked face",
+   "yer": "EV · KARGO KUTUSU"
+  },
+  {
+   "text": "Satıcıya yazdın.",
+   "prompt": "{MUSTERI} typing angrily on his smartphone on the sofa, the crushed box next to him",
+   "telefon": {
+    "baslik": "Satıcı",
+    "alt": "çevrimiçi",
+    "mesajlar": [
+     {
+      "ben": true,
+      "metin": "Ürün kırık geldi, fotoğrafı attım."
+     }
+    ]
+   }
+  },
+  {
+   "text": "Satıcı cevap verdi: Biz sağlam gönderdik. Kargo firmasıyla görüşün.",
+   "prompt": "a smug online shop owner at a desk full of packages, shrugging while holding a phone, cartoon style",
+   "telefon": {
+    "baslik": "Satıcı",
+    "alt": "çevrimiçi",
+    "mesajlar": [
+     {
+      "ben": true,
+      "metin": "Ürün kırık geldi, fotoğrafı attım."
+     },
+     {
+      "kim": "Satıcı",
+      "metin": "Biz sağlam gönderdik. Kargo firmasıyla görüşün."
+     }
+    ]
+   }
+  },
+  {
+   "text": "Kargo firması da topu satıcıya attı.",
+   "prompt": "a delivery courier in a brown uniform pointing away, standing next to a delivery van, comic expression"
+  },
+  {
+   "text": "Sence kim haklı? Müşteri mi, satıcı mı? Üç saniye düşün.",
+   "prompt": "dramatic split composition, {MUSTERI} on one side holding a broken mug, a shop owner on the other side, tense lighting",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: müşteri haklı.",
+   "prompt": "{MUSTERI} grinning with confidence, arms crossed, sparkles",
+   "kim": "A"
+  },
+  {
+   "text": "Ürün sana teslim edilene kadar, kayıp ve hasardan satıcı sorumludur.",
+   "prompt": "a cardboard parcel traveling on a conveyor belt with a glowing protective shield around it, warehouse background"
+  },
+  {
+   "text": "Bu, Mesafeli Sözleşmeler Yönetmeliği'nin on yedinci maddesinde yazıyor. Kargoyla uğraşmak satıcının işi.",
+   "prompt": "a stack of official documents with a golden seal on a wooden desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Hasarlı paketi teslim alırken kuryeye tutanak tutturmayı unutma.",
+   "prompt": "{MUSTERI} at his apartment door showing a dented box to a courier who is writing on a clipboard"
+  },
+  {
+   "text": "Bunu internetten alışveriş yapan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone on a sofa, warm light"
+  }
+ ],
+ "caption": "Sipariş kırık geldi. Satıcı \"kargonun suçu\" diyor, kargo \"satıcıya git\" diyor. 📦",
+ "hashtags": [
+  "#kimhaklı",
+  "#tüketicihakları",
+  "#kargo",
+  "#internetalışverişi",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.hukukihaber.net/e-ticaret-mesafeli-satis-sozlesmesi",
+  "https://kulacoglu.av.tr/internet-alisverislerinde-urunun-teslim-edilmemesi-ve-pazaryerleri/"
+ ]
+}

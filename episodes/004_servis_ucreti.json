@@ -1,0 +1,86 @@
+{
+ "id": "004",
+ "slug": "servis_ucreti",
+ "title": "Hesaba servis ücreti",
+ "dizi_adi": "Servis ücreti",
+ "seed": 24004,
+ "kanca_yazi": "Hesapta %12 servis ücreti var",
+ "taraflar": {
+  "A": "Müşteri",
+  "B": "Garson"
+ },
+ "characters": {
+  "MUSTERI": "a young Turkish woman with a dark bob haircut in a green sweater",
+  "GARSON": "a young waiter in a black apron holding a small bill folder"
+ },
+ "secim": {
+  "A": "Müşteri: Servis ücretini ödemem",
+  "B": "Garson: Servis ücreti zorunlu"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Müşteri haklı: zorunlu servis ücreti istenemez",
+  "kaynak": "Fiyat Etiketi Yönetmeliği (30 Ocak 2026) · Ticaret Bakanlığı"
+ },
+ "gonder": "Dışarıda yemek yiyen birine gönder",
+ "scenes": [
+  {
+   "text": "Yemek bitti, hesap geldi. En altta yüzde on iki servis ücreti eklenmiş.",
+   "prompt": "{MUSTERI} at a cozy restaurant table looking surprised at an open bill folder, close-up",
+   "yer": "RESTORAN"
+  },
+  {
+   "text": "Müşteri sordu: Bu ne? Ben bunu ödemem.",
+   "prompt": "{MUSTERI} holding up the bill folder and raising her eyebrows at the waiter",
+   "kim": "A"
+  },
+  {
+   "text": "Garson gülümsedi: Herkes ödüyor efendim, zorunlu.",
+   "prompt": "{GARSON} smiling politely but firmly next to the table",
+   "kim": "B"
+  },
+  {
+   "text": "Masadakiler birbirine baktı.",
+   "prompt": "friends around a restaurant table glancing at each other awkwardly, warm evening light"
+  },
+  {
+   "text": "Sence kim haklı? Müşteri mi, garson mu? Üç saniye düşün.",
+   "prompt": "tense moment at a restaurant table between {MUSTERI} and {GARSON}",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: müşteri haklı.",
+   "prompt": "{MUSTERI} smiling confidently and closing the bill folder, sparkles",
+   "kim": "A"
+  },
+  {
+   "text": "Restoran ve kafelerde servis, kuver ya da masa ücreti adıyla zorunlu ek ücret istenemez.",
+   "prompt": "an elegant restaurant interior with a glowing bill folder on a table, magical sparkles"
+  },
+  {
+   "text": "Bu kural, otuz Ocak iki bin yirmi altıda Fiyat Etiketi Yönetmeliği'ne eklendi.",
+   "prompt": "a stack of official documents with a golden seal on a wooden desk, warm light, no readable text"
+  },
+  {
+   "text": "Bahşiş ise tamamen senin isteğine bağlı.",
+   "prompt": "a hand leaving a few coins on a small plate on a cafe table, soft light"
+  },
+  {
+   "text": "Bunu dışarıda yemek yiyen birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone in a cafe, warm light"
+  }
+ ],
+ "caption": "Hesaba yüzde 12 servis ücreti eklenmiş. Garson \"zorunlu\" diyor. 🍽️",
+ "hashtags": [
+  "#kimhaklı",
+  "#restoran",
+  "#tüketicihakları",
+  "#servisücreti",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.bloomberght.com/restoranlarda-servis-ve-kuver-ucreti-alinmasi-yasaklandi-3767768",
+  "https://www.alomaliye.com/2026/01/30/fiyat-etiketi-yonetmeliginde-degisiklik-30-01-2026/"
+ ]
+}
