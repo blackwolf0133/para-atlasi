@@ -1,0 +1,87 @@
+{
+ "id": "009",
+ "slug": "magaza_iade",
+ "title": "Mağazada iade yok",
+ "dizi_adi": "İade",
+ "seed": 24009,
+ "kanca_yazi": "Dün aldın, bugün iade yok dediler",
+ "taraflar": {
+  "A": "Müşteri",
+  "B": "Mağaza"
+ },
+ "characters": {
+  "MUSTERI": "a young Turkish woman with a high ponytail in a white puffer jacket holding a shopping bag",
+  "SATICI": "a Turkish sales assistant in his twenties with neat hair in a black polo shirt with a name badge"
+ },
+ "secim": {
+  "A": "Müşteri: On dört gün iade hakkım var",
+  "B": "Mağaza: Kusursuz üründe iade yok"
+ },
+ "dogru": {
+  "harf": "B",
+  "metin": "Mağaza haklı: kusursuz üründe iade zorunlu değil",
+  "kaynak": "6502 sayılı Kanun · Ticaret Bakanlığı"
+ },
+ "gonder": "Bunu alışverişi seven birine gönder",
+ "scenes": [
+  {
+   "text": "Dün mağazadan kazak aldın. Evde beğenmedin, etiketi bile duruyor.",
+   "prompt": "{MUSTERI} at a clothing store counter placing a folded sweater with its tag still on, hopeful face",
+   "yer": "GİYİM MAĞAZASI"
+  },
+  {
+   "text": "Müşteri emin: On dört gün iade hakkım var, paramı geri verin.",
+   "prompt": "{MUSTERI} tapping the counter confidently, holding a receipt",
+   "kim": "A"
+  },
+  {
+   "text": "Satıcı başını salladı: Üründe kusur yok. İade almıyoruz.",
+   "prompt": "{SATICI} politely shaking his head behind the counter with his hands folded",
+   "kim": "B"
+  },
+  {
+   "text": "Herkes o on dört günü bilir. Ama nerede geçerli?",
+   "prompt": "a big glowing calendar floating in a clothing store with fourteen days highlighted, no readable text"
+  },
+  {
+   "text": "Sence kim haklı? Müşteri mi, mağaza mı? Üç saniye düşün.",
+   "prompt": "tense face-off between {MUSTERI} and {SATICI} across a store counter with a sweater in the middle",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: mağaza haklı.",
+   "prompt": "{SATICI} smiling apologetically, sparkles",
+   "kim": "B"
+  },
+  {
+   "text": "On dört günlük cayma hakkı internet, telefon gibi uzaktan alışverişte var. Mağazadan peşin alınan kusursuz üründe yok.",
+   "prompt": "a smartphone with a shopping cart icon glowing next to a physical store counter, split composition, no readable text"
+  },
+  {
+   "text": "Mağazalar iadeyi kendi politikasıyla yapar. Ürün kusurluysa ise kanun seni korur.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Almadan önce iade ve değişim şartını sor, fişin üstüne yazdır.",
+   "prompt": "{MUSTERI} asking the cashier a question while paying at a store counter, friendly light"
+  },
+  {
+   "text": "Bunu alışverişi seven birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone in a shopping mall, warm light"
+  }
+ ],
+ "caption": "Dün aldığın kazağı iade etmek istedin, mağaza \"kusursuz üründe iade yok\" dedi. 🛍️",
+ "hashtags": [
+  "#kimhaklı",
+  "#tüketicihakları",
+  "#alışveriş",
+  "#bilgi",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://oner.av.tr/tuketici-haklari-sik-sorulan-sorular/",
+  "https://www.alomaliye.com/2020/09/21/tuketici-haklari/",
+  "https://www.kazimceylan.av.tr/14-gunluk-cayma-hakki"
+ ]
+}

@@ -30,3 +30,15 @@ banka/kart (kart aidatı, yetkisiz işlem), ulaşım (uçuş gecikmesi tazminat�
  "caption":"Kanca + durum. Emoji.","hashtags":["#kimhaklı","…"],"kaynaklar":["https://…"]}
 `text`: sayılar yazıyla, kısa cümleler. `prompt`: İngilizce, somut, Türk günlük hayat ortamı; yazı/tabela metni YOK.
 `caption`'a A/B satırı ve kaynak yazma (robot ekler). Müzik: engine/muzik_sec.py (Kevin MacLeod, CC BY 4.0).
+
+## 26 Kasım: DİKKAT ÇEKEN KONU kuralları (kullanıcı isteği: "daha çok dikkat çeken konular")
+İlk iki video: 001 market fiyatı (erişim 1), 002 kargo hasarı (103 erişim, 0 yorum). Ders: market/kargo gibi
+"haklıyım ama umurumda değil" konuları yorum getirmiyor. İnsanların AİLESİYLE, PARASIYLA, EVİYLE, İŞİYLE kavga ettiği
+ve "kesin ben haklıyım" dediği konular öne:
+- Aile/para: düğün altınları, miras (kız-erkek kardeş), nişan hediyeleri, borç verilen para, aile evi.
+- Ev: kiracı-ev sahibi (badana, depozito, habersiz giriş, aidat/demirbaş), komşu, apartman.
+- İş: patron-çalışan (izin parası, ihbar, maaş kesintisi, fazla mesai — yalnızca net kurallı olanlar).
+- Trafik: herkesin kavga ettiği net kurallar (dönel kavşak, sağdan gelen, fermuar sistemi…).
+- "YANLIŞ BİLDİĞİN" bükümü en güçlüsü: çoğunluğun yanlış bildiği cevap (009 mağazada iade yok, 006 Yargıtay 2024
+  değişikliği). Haftada en az iki bölüm böyle olsun; doğru cevap A/B dengeli kalsın.
+- Kanca_yazi: kavga cümlesi ya da şok rakam ("Abi diyor ki: Baba evi erkek evladın"). Genel bilgi cümlesi DEĞİL.

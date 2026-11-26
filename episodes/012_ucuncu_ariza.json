@@ -1,0 +1,87 @@
+{
+ "id": "012",
+ "slug": "ucuncu_ariza",
+ "title": "Aynı arıza üçüncü kez",
+ "dizi_adi": "Garanti",
+ "seed": 24012,
+ "kanca_yazi": "Buzdolabı aynı arızadan üçüncü kez bozuldu",
+ "taraflar": {
+  "A": "Müşteri",
+  "B": "Servis"
+ },
+ "characters": {
+  "MUSTERI": "a Turkish woman in her forties with a ponytail in a green cardigan",
+  "SERVIS": "a Turkish technician in his thirties in a grey work uniform with a toolbox"
+ },
+ "secim": {
+  "A": "Müşteri: Artık yenisini istiyorum",
+  "B": "Servis: Garantide sadece tamir var"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Müşteri haklı: değişim isteyebilir",
+  "kaynak": "Garanti Belgesi Yönetmeliği · Ticaret Bakanlığı"
+ },
+ "gonder": "Bunu yeni beyaz eşya alan birine gönder",
+ "scenes": [
+  {
+   "text": "Yedi aylık buzdolabı. Aynı arıza, üçüncü kez.",
+   "prompt": "{MUSTERI} opening a warm dark refrigerator full of food, frustrated face, kitchen",
+   "yer": "MUTFAK"
+  },
+  {
+   "text": "Müşteri bıktı: Bu sefer tamir istemiyorum, yenisini getirin.",
+   "prompt": "{MUSTERI} standing with arms crossed in front of the refrigerator, firm face",
+   "kim": "A"
+  },
+  {
+   "text": "Servis çantasını açtı: Garantide tamir ederiz, değişim yok.",
+   "prompt": "{SERVIS} kneeling and opening his toolbox in front of the refrigerator, shrugging",
+   "kim": "B"
+  },
+  {
+   "text": "Bu sırada dolaptaki yemekler bozuluyor.",
+   "prompt": "close-up of spoiled vegetables and a melted ice tray inside a dark refrigerator"
+  },
+  {
+   "text": "Sence kim haklı? Müşteri mi, servis mi? Üç saniye düşün.",
+   "prompt": "tense face-off between {MUSTERI} and {SERVIS} in a kitchen next to a broken refrigerator",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: müşteri haklı.",
+   "prompt": "{MUSTERI} smiling next to a brand new shiny refrigerator, sparkles",
+   "kim": "A"
+  },
+  {
+   "text": "Garanti süresinde, bir yıl içinde aynı arıza ikiden fazla tekrarlarsa, malın değiştirilmesini isteyebilirsin.",
+   "prompt": "a shiny new refrigerator glowing with a protective shield in a kitchen, magical light, no text"
+  },
+  {
+   "text": "Bu, Garanti Belgesi Yönetmeliği'nde yazıyor. Tamir yirmi iş gününü geçerse de aynı hak doğar.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Her servis fişini sakla, tarih ve arıza yazsın.",
+   "prompt": "{MUSTERI} filing service receipts into a folder at a kitchen table"
+  },
+  {
+   "text": "Bunu yeni beyaz eşya alan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone in a bright kitchen, warm light"
+  }
+ ],
+ "caption": "Yedi aylık buzdolabı aynı arızadan üçüncü kez bozuldu. Servis \"yine tamir ederiz\" diyor. 🧊",
+ "hashtags": [
+  "#kimhaklı",
+  "#tüketicihakları",
+  "#garanti",
+  "#bilgi",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://hukukcularevi.com/garanti-belgesi-ucretsiz-onarim/",
+  "https://www.alomaliye.com/2022/08/11/tuketicileri-bilgilendirme-sikca-sorulan-sorular/",
+  "https://www.resmigazete.gov.tr/eskiler/2014/06/20140613-2.htm"
+ ]
+}

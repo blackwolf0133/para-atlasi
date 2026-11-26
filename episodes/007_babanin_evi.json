@@ -1,0 +1,87 @@
+{
+ "id": "007",
+ "slug": "babanin_evi",
+ "title": "Babadan kalan ev",
+ "dizi_adi": "Miras",
+ "seed": 24007,
+ "kanca_yazi": "Abi diyor ki: Baba evi erkek evladın",
+ "taraflar": {
+  "A": "Abi",
+  "B": "Kız kardeş"
+ },
+ "characters": {
+  "ABI": "a Turkish man in his forties with a thick mustache in a dark green sweater",
+  "KARDES": "a Turkish woman in her thirties with shoulder-length brown hair in a cream cardigan"
+ },
+ "secim": {
+  "A": "Abi: Ev oğula kalır",
+  "B": "Kız kardeş: Eşit payım var"
+ },
+ "dogru": {
+  "harf": "B",
+  "metin": "Kız kardeş haklı: çocuklar eşit mirasçı",
+  "kaynak": "Türk Medeni Kanunu m.495"
+ },
+ "gonder": "Bunu kardeşine gönder",
+ "scenes": [
+  {
+   "text": "Baba vefat etti. Geriye tek bir ev kaldı.",
+   "prompt": "an old two-story Turkish family house with a garden and a walnut tree at dusk, melancholic warm light, no people",
+   "yer": "BABA EVİ"
+  },
+  {
+   "text": "Abi net konuştu: Bu ev erkek evladın. Sen evlendin, kocanın evi var.",
+   "prompt": "{ABI} standing in the doorway of the old house with arms crossed, stern face, low angle",
+   "kim": "A"
+  },
+  {
+   "text": "Kız kardeş gözleri dolarak cevap verdi: Ben de bu evde büyüdüm. Payım var.",
+   "prompt": "{KARDES} holding an old family photo frame with teary eyes, warm living room",
+   "kim": "B"
+  },
+  {
+   "text": "Akrabalar da ikiye bölündü.",
+   "prompt": "a group of Turkish relatives arguing in a living room, some nodding some shaking heads, wide shot"
+  },
+  {
+   "text": "Sence kim haklı? Abi mi, kız kardeş mi? Üç saniye düşün.",
+   "prompt": "tense face-off between {ABI} and {KARDES} in the old family living room",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: kız kardeş haklı.",
+   "prompt": "{KARDES} standing confidently holding the family photo, sparkles",
+   "kim": "B"
+  },
+  {
+   "text": "Vasiyet yoksa çocuklar eşit mirasçıdır. Kız, erkek, evli, bekâr fark etmez.",
+   "prompt": "a house key split into equal glowing halves on a wooden table, magical sparkles"
+  },
+  {
+   "text": "Bu, Türk Medeni Kanunu'nun dört yüz doksan beşinci maddesinde açıkça yazıyor.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Anlaşamazsanız sulh hukuk mahkemesinden ortaklığın giderilmesini isteyebilirsin.",
+   "prompt": "{KARDES} walking up the steps of a courthouse with a folder, morning light"
+  },
+  {
+   "text": "Bunu kardeşine gönder.",
+   "prompt": "two siblings laughing together while looking at a smartphone on a sofa, warm light"
+  }
+ ],
+ "caption": "Baba evi kime kalır? Abi \"erkek evladın\" diyor, kız kardeş \"benim de payım var\". 🏠",
+ "hashtags": [
+  "#kimhaklı",
+  "#miras",
+  "#aile",
+  "#hukuk",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://av-saimincekas.com/kanun/turk-medeni-kanunu/madde-495-tmk/",
+  "https://hukukcularevi.com/kiz-cocugunun-miras-hakki/",
+  "https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=4721&MevzuatTur=1&MevzuatTertip=5"
+ ]
+}

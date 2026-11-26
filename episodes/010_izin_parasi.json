@@ -1,0 +1,87 @@
+{
+ "id": "010",
+ "slug": "izin_parasi",
+ "title": "İstifa ettin, izin paran yandı mı?",
+ "dizi_adi": "İzin parası",
+ "seed": 24010,
+ "kanca_yazi": "İstifa ettin. Patron: İzin paran yandı",
+ "taraflar": {
+  "A": "Çalışan",
+  "B": "Patron"
+ },
+ "characters": {
+  "CALISAN": "a Turkish man in his late twenties with short curly hair in a light blue shirt",
+  "PATRON": "a balding Turkish man in his fifties in a dark suit with a gold watch"
+ },
+ "secim": {
+  "A": "Çalışan: Kullanmadığım iznin parasını ver",
+  "B": "Patron: İstifa edenin hakkı yanar"
+ },
+ "dogru": {
+  "harf": "A",
+  "metin": "Çalışan haklı: izin ücreti her durumda ödenir",
+  "kaynak": "İş Kanunu m.59"
+ },
+ "gonder": "Bunu çalışan bir arkadaşına gönder",
+ "scenes": [
+  {
+   "text": "Dört yıl çalıştın, istifa ettin. Kullanmadığın on iki gün iznin var.",
+   "prompt": "{CALISAN} placing a resignation envelope on a big office desk, determined face",
+   "yer": "MUHASEBE ODASI"
+  },
+  {
+   "text": "Çalışan sordu: İzinlerimin parası son maaşla yatacak, değil mi?",
+   "prompt": "{CALISAN} leaning on a desk asking calmly, office background",
+   "kim": "A"
+  },
+  {
+   "text": "Patron güldü: İstifa eden izin parası alamaz. Kendin gidiyorsun.",
+   "prompt": "{PATRON} leaning back in a leather chair laughing dismissively",
+   "kim": "B"
+  },
+  {
+   "text": "Muhasebe de patronun yanında durdu.",
+   "prompt": "an accountant nodding nervously behind {PATRON} in an office, stacks of folders"
+  },
+  {
+   "text": "Sence kim haklı? Çalışan mı, patron mu? Üç saniye düşün.",
+   "prompt": "tense face-off between {CALISAN} and {PATRON} across an office desk",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: çalışan haklı.",
+   "prompt": "{CALISAN} smiling confidently holding a payslip, sparkles",
+   "kim": "A"
+  },
+  {
+   "text": "İş sözleşmesi hangi sebeple biterse bitsin, kullanılmayan yıllık izinlerin ücreti ödenir. İstifa da buna dahil.",
+   "prompt": "a calendar with glowing golden day squares turning into coins, magical light, no readable text"
+  },
+  {
+   "text": "İş Kanunu madde elli dokuz böyle diyor. Yargıtay da istifa edenin bu parayı alacağını defalarca söyledi.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: İzin kullandığın her günü yazılı belgeyle sakla, son bordrona bak.",
+   "prompt": "{CALISAN} checking a printed payslip at his kitchen table with a cup of tea"
+  },
+  {
+   "text": "Bunu çalışan bir arkadaşına gönder.",
+   "prompt": "two coworkers laughing together while looking at a smartphone in an office break room, warm light"
+  }
+ ],
+ "caption": "İstifa ettin, patron \"izin paran yandı\" diyor. Dört yılın on iki günü. 💼",
+ "hashtags": [
+  "#kimhaklı",
+  "#işhayatı",
+  "#maaş",
+  "#hukuk",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.muhasebetr.com/ulusalbasin/haber_oku.php?haber_id=30750",
+  "https://www.karar.com/yargitaydan-emsal-karar-isci-istifa-etse-de-yillik-izin-ucretini-alabilecek-1281917",
+  "https://www.alomaliye.com/2026/06/09/yargitaydan-yillik-izin-karari-hafta-tatiline-denk-gelen-gunler-izin-suresinden-sayilmaz/"
+ ]
+}

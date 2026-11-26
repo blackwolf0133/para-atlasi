@@ -1,0 +1,87 @@
+{
+ "id": "006",
+ "slug": "dugun_altinlari",
+ "title": "Damada takılan altınlar kimin?",
+ "dizi_adi": "Düğün altını",
+ "seed": 24006,
+ "kanca_yazi": "Boşanıyorlar. Damada takılan altınlar kimin?",
+ "taraflar": {
+  "A": "Gelin",
+  "B": "Damat"
+ },
+ "characters": {
+  "GELIN": "a young Turkish woman with dark wavy hair in a burgundy blouse",
+  "DAMAT": "a young Turkish man with a short beard in a grey shirt"
+ },
+ "secim": {
+  "A": "Gelin: Düğün takısının hepsi benim",
+  "B": "Damat: Bana takılan çeyrekler benim"
+ },
+ "dogru": {
+  "harf": "B",
+  "metin": "Damat haklı: ona takılan çeyrek onun",
+  "kaynak": "Yargıtay 2. HD, 2024/2402 K."
+ },
+ "gonder": "Bunu evlenecek birine gönder",
+ "scenes": [
+  {
+   "text": "Boşanıyorlar. Kavga evde değil, düğün altınlarında.",
+   "prompt": "{GELIN} and {DAMAT} sitting at opposite ends of a long table with a small open velvet jewelry box of gold coins between them, dramatic close-up",
+   "yer": "BOŞANMA ÖNCESİ"
+  },
+  {
+   "text": "Gelin kutuyu kendine çekti: Düğünde ne takıldıysa hepsi benim.",
+   "prompt": "{GELIN} pulling a velvet box of gold bracelets and gold coins toward herself, determined face",
+   "kim": "A"
+  },
+  {
+   "text": "Damat itiraz etti: Yakama iğnelenen çeyrekler benim.",
+   "prompt": "{DAMAT} pointing at his own chest where gold coins were pinned on a red ribbon at the wedding, flashback style warm glow",
+   "kim": "B"
+  },
+  {
+   "text": "Herkes eskisi gibi biliyor: Takının hepsi gelinindir.",
+   "prompt": "a crowd of Turkish relatives whispering behind a door, curious faces, wide shot"
+  },
+  {
+   "text": "Sence kim haklı? Gelin mi, damat mı? Üç saniye düşün.",
+   "prompt": "tense face-off between {GELIN} and {DAMAT} across a table with gold coins in the middle",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: damada takılan çeyrekler için damat haklı.",
+   "prompt": "{DAMAT} holding a few gold coins in his palm with a surprised relieved face, sparkles",
+   "kim": "B"
+  },
+  {
+   "text": "Yargıtay iki bin yirmi dörtte kuralı değiştirdi. Anlaşma ya da yöre âdeti yoksa, takı kime takıldıysa onundur.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "Ama bilezik, kolye, küpe gibi kadına özgü takılar, damada takılsa bile gelinin.",
+   "prompt": "close-up of gold bracelets, a gold necklace and earrings glowing on a velvet cloth, magical sparkles"
+  },
+  {
+   "text": "İpucu: Düğünden sonra kime ne takıldığını video ve listeyle sakla.",
+   "prompt": "{GELIN} and {DAMAT} in happier times watching a wedding video on a laptop, warm light"
+  },
+  {
+   "text": "Bunu evlenecek birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone in a cozy Turkish living room, warm light"
+  }
+ ],
+ "caption": "Boşanma masasında düğün altınları. Gelin \"hepsi benim\" diyor, damat \"bana takılanlar benim\". 💍",
+ "hashtags": [
+  "#kimhaklı",
+  "#düğün",
+  "#altın",
+  "#hukuk",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.hukukihaber.net/yargitayin-dugunde-takilanlarin-kime-ait-olacagi-konusunda-yeni-karari-6-1",
+  "https://rudaw.net/turkish/categories/turkey/1280062",
+  "https://kulacoglu.av.tr/ziynet-esyalarinin-iadesi-davasi/"
+ ]
+}

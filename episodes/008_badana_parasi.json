@@ -1,0 +1,87 @@
+{
+ "id": "008",
+ "slug": "badana_parasi",
+ "title": "Çıkarken badana parası",
+ "dizi_adi": "Depozito",
+ "seed": 24008,
+ "kanca_yazi": "Ev sahibi depozitodan badana parası kesti",
+ "taraflar": {
+  "A": "Ev sahibi",
+  "B": "Kiracı"
+ },
+ "characters": {
+  "EVSAHIBI": "a heavyset Turkish woman in her fifties with a headscarf and a purple coat",
+  "KIRACI": "a young Turkish man with glasses in a blue hoodie"
+ },
+ "secim": {
+  "A": "Ev sahibi: Boyasız çıkamazsın",
+  "B": "Kiracı: Eskime benim suçum değil"
+ },
+ "dogru": {
+  "harf": "B",
+  "metin": "Kiracı haklı: olağan eskimeden sorumlu değil",
+  "kaynak": "Türk Borçlar Kanunu m.334"
+ },
+ "gonder": "Bunu kirada oturan birine gönder",
+ "scenes": [
+  {
+   "text": "Üç yıl oturdun, evden çıkıyorsun. Depozitonun yarısı yok.",
+   "prompt": "{KIRACI} standing in an empty apartment with moving boxes, staring shocked at a few banknotes in his hand",
+   "yer": "TAHLİYE GÜNÜ"
+  },
+  {
+   "text": "Ev sahibi duvarı gösterdi: Duvarlar eskimiş, badana parasını kestim.",
+   "prompt": "{EVSAHIBI} pointing at a slightly faded wall in an empty room, strict face",
+   "kim": "A"
+  },
+  {
+   "text": "Kiracı şaşırdı: Duvara çivi bile çakmadım. Üç yılda boya eskir.",
+   "prompt": "{KIRACI} spreading his arms in disbelief next to a clean but slightly faded wall",
+   "kim": "B"
+  },
+  {
+   "text": "Sözleşmede boya badana diye bir madde de yok.",
+   "prompt": "close-up of a rental contract on a kitchen counter next to a key, no readable text"
+  },
+  {
+   "text": "Sence kim haklı? Ev sahibi mi, kiracı mı? Üç saniye düşün.",
+   "prompt": "tense face-off between {EVSAHIBI} and {KIRACI} in an empty apartment with moving boxes",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: kiracı haklı.",
+   "prompt": "{KIRACI} smiling with relief holding his keys, sparkles",
+   "kim": "B"
+  },
+  {
+   "text": "Kiracı, normal kullanımdan doğan eskimeden sorumlu değil. Sadece kötü kullanımdan sorumlu.",
+   "prompt": "a split view of a clean slightly faded wall and a wall with big scribbles, magical glow, no text"
+  },
+  {
+   "text": "Türk Borçlar Kanunu madde üç yüz otuz dört böyle diyor. Yargıtay da olağan eskime için badana parası kesilemez dedi.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Girerken ve çıkarken evin fotoğrafını ve videosunu çek, tarihli sakla.",
+   "prompt": "{KIRACI} filming an empty room with his smartphone, over the shoulder view"
+  },
+  {
+   "text": "Bunu kirada oturan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone on a sofa, warm light"
+  }
+ ],
+ "caption": "Üç yıl oturdun, çıkarken depozitodan badana parası kesildi. Sözleşmede madde yok. 🎨",
+ "hashtags": [
+  "#kimhaklı",
+  "#kiracı",
+  "#depozito",
+  "#hukuk",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.hukukihaber.net/yargitay-3-hukuk-dairesinin-20195471-e-201910231-k-sayili-karari",
+  "https://www.memurlar.net/haber/1168175/evi-nasil-aldiysan-oyle-birak-anlayisi-gecerliligini-yitirdi.html",
+  "https://www.hukukihaber.net/kiralananin-iadesinde-boya-badana-yukumlulugu"
+ ]
+}

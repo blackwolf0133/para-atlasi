@@ -1,0 +1,87 @@
+{
+ "id": "011",
+ "slug": "donel_kavsak",
+ "title": "Dönel kavşakta kim önce?",
+ "dizi_adi": "Kavşak",
+ "seed": 24011,
+ "kanca_yazi": "Kavşağa giren mi, içinde dönen mi?",
+ "taraflar": {
+  "A": "Giren sürücü",
+  "B": "İçerdeki sürücü"
+ },
+ "characters": {
+  "GIREN": "a Turkish man in his thirties with a goatee driving a white hatchback car",
+  "ICERDEKI": "a Turkish woman in her forties with short hair and sunglasses driving a red sedan"
+ },
+ "secim": {
+  "A": "Giren: Sağdan gelen önce geçer",
+  "B": "İçerdeki: Kavşaktaki araç önce geçer"
+ },
+ "dogru": {
+  "harf": "B",
+  "metin": "İçerdeki haklı: kavşaktaki araca yol verilir",
+  "kaynak": "Karayolları Trafik Kanunu m.57"
+ },
+ "gonder": "Bunu yeni ehliyet alan birine gönder",
+ "scenes": [
+  {
+   "text": "Dönel kavşak. İki araba aynı anda burun buruna.",
+   "prompt": "top-down cinematic view of a Turkish roundabout with a white hatchback and a red sedan almost colliding, dramatic",
+   "yer": "DÖNEL KAVŞAK"
+  },
+  {
+   "text": "Giren sürücü kornaya bastı: Ben sağdan geliyorum, yol benim.",
+   "prompt": "{GIREN} honking angrily inside his white hatchback at a roundabout entrance",
+   "kim": "A"
+  },
+  {
+   "text": "İçerdeki sürücü camı indirdi: Ben zaten kavşaktayım.",
+   "prompt": "{ICERDEKI} rolling down her window inside the roundabout, calm but annoyed",
+   "kim": "B"
+  },
+  {
+   "text": "Arkada korna sesleri, trafik kilit.",
+   "prompt": "a traffic jam forming behind a roundabout, many cars, drivers raising hands, wide shot"
+  },
+  {
+   "text": "Sence kim haklı? Giren mi, içerdeki mi? Üç saniye düşün.",
+   "prompt": "tense face-off between the white hatchback and the red sedan at a roundabout, dramatic lighting",
+   "oylama": true,
+   "ek_sure": 2.3
+  },
+  {
+   "text": "Cevap: kavşağın içindeki haklı.",
+   "prompt": "the red sedan driving smoothly around a roundabout with sparkles, {ICERDEKI} smiling",
+   "kim": "B"
+  },
+  {
+   "text": "Dönel kavşağa gelen sürücü, kavşağın içindeki araçlara yol vermek zorunda.",
+   "prompt": "a glowing circular arrow around a roundabout island with cars waiting politely at the entrance, magical light, no text"
+  },
+  {
+   "text": "Bu, Karayolları Trafik Kanunu'nun elli yedinci maddesinde yazıyor. Kazada kusur girene yazılır.",
+   "prompt": "a stack of official law books with a golden seal and a wooden gavel on a desk, warm light, no readable text"
+  },
+  {
+   "text": "İpucu: Kavşağa girerken yavaşla, soluna bak, içerdeki geçince gir.",
+   "prompt": "{GIREN} calmly waiting at a roundabout entrance looking left, safe driving"
+  },
+  {
+   "text": "Bunu yeni ehliyet alan birine gönder.",
+   "prompt": "two friends laughing together while looking at a smartphone next to a car, warm light"
+  }
+ ],
+ "caption": "Dönel kavşakta burun buruna. Biri \"sağdan geliyorum\", öbürü \"ben zaten içerideyim\" diyor. 🚗",
+ "hashtags": [
+  "#kimhaklı",
+  "#trafik",
+  "#araba",
+  "#ehliyet",
+  "#keşfet"
+ ],
+ "kaynaklar": [
+  "https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Trafik/moderndonelkavsak.pdf",
+  "https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Trafik/KanunYonetmelik/2918SayiliKanun.pdf",
+  "https://www.arabam.com/blog/?p=139229"
+ ]
+}
